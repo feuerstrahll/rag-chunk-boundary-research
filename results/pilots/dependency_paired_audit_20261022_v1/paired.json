@@ -1,0 +1,432 @@
+{
+  "status": "draft_paired_geometry_audit",
+  "interpretation": "spans only; not retrieval or prevalence",
+  "selection": "fixed_m480_o20",
+  "fixed_window_algorithm": "retokenized-v2",
+  "inputs_sha256": {
+    "documents": "07eb7343aba569eedf13e9638bd843790f81567068f0dd7ff2446d8e43784025",
+    "labels": "ab229dddd7eaf18dc82717523ef646a82a37e8b0dabf3aad21711b3ee6f9084a",
+    "structure_chunks": "25592c94ac555ace98ded57e0ea1e4453722d16f2454ed1da559dd428ee3c346",
+    "selection": "5f2e3a5746bed1eb4419c1c30264c3aca5e9819cfb384730a55574c19d409ab1"
+  },
+  "positive_counts": {
+    "both_preserve": 9,
+    "structure_only": 3
+  },
+  "cases": [
+    {
+      "record_id": "pilot_001",
+      "stratum": "random",
+      "decision": "negative",
+      "review_status": "reviewed_by_codex",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_002",
+      "stratum": "random",
+      "decision": "negative",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_003",
+      "stratum": "random",
+      "decision": "negative",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_004",
+      "stratum": "random",
+      "decision": "negative",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_005",
+      "stratum": "random",
+      "decision": "positive",
+      "review_status": "reviewed_by_codex",
+      "edge_count": 1,
+      "structure_preserved": true,
+      "fixed_preserved": true,
+      "pair_class": "both_preserve"
+    },
+    {
+      "record_id": "pilot_006",
+      "stratum": "random",
+      "decision": "not_applicable",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_007",
+      "stratum": "random",
+      "decision": "negative",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_008",
+      "stratum": "random",
+      "decision": "negative",
+      "review_status": "reviewed_by_codex",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_009",
+      "stratum": "random",
+      "decision": "not_applicable",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_010",
+      "stratum": "random",
+      "decision": "positive",
+      "review_status": "draft",
+      "edge_count": 3,
+      "structure_preserved": true,
+      "fixed_preserved": false,
+      "pair_class": "structure_only"
+    },
+    {
+      "record_id": "pilot_011",
+      "stratum": "random",
+      "decision": "positive",
+      "review_status": "draft",
+      "edge_count": 7,
+      "structure_preserved": true,
+      "fixed_preserved": true,
+      "pair_class": "both_preserve"
+    },
+    {
+      "record_id": "pilot_012",
+      "stratum": "random",
+      "decision": "not_applicable",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_013",
+      "stratum": "random",
+      "decision": "negative",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_014",
+      "stratum": "random",
+      "decision": "positive",
+      "review_status": "reviewed_by_codex",
+      "edge_count": 1,
+      "structure_preserved": true,
+      "fixed_preserved": true,
+      "pair_class": "both_preserve"
+    },
+    {
+      "record_id": "pilot_015",
+      "stratum": "random",
+      "decision": "negative",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_016",
+      "stratum": "random",
+      "decision": "negative",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_017",
+      "stratum": "random",
+      "decision": "negative",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_018",
+      "stratum": "random",
+      "decision": "not_applicable",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_019",
+      "stratum": "random",
+      "decision": "negative",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_020",
+      "stratum": "random",
+      "decision": "positive",
+      "review_status": "draft",
+      "edge_count": 2,
+      "structure_preserved": true,
+      "fixed_preserved": true,
+      "pair_class": "both_preserve"
+    },
+    {
+      "record_id": "pilot_021",
+      "stratum": "random",
+      "decision": "uncertain",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_022",
+      "stratum": "random",
+      "decision": "uncertain",
+      "review_status": "draft",
+      "edge_count": 16
+    },
+    {
+      "record_id": "pilot_023",
+      "stratum": "random",
+      "decision": "negative",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_024",
+      "stratum": "random",
+      "decision": "not_applicable",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_025",
+      "stratum": "random",
+      "decision": "positive",
+      "review_status": "reviewed_by_codex",
+      "edge_count": 2,
+      "structure_preserved": true,
+      "fixed_preserved": true,
+      "pair_class": "both_preserve"
+    },
+    {
+      "record_id": "pilot_026",
+      "stratum": "random",
+      "decision": "positive",
+      "review_status": "draft",
+      "edge_count": 2,
+      "structure_preserved": true,
+      "fixed_preserved": true,
+      "pair_class": "both_preserve"
+    },
+    {
+      "record_id": "pilot_027",
+      "stratum": "random",
+      "decision": "negative",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_028",
+      "stratum": "random",
+      "decision": "not_applicable",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_029",
+      "stratum": "random",
+      "decision": "negative",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_030",
+      "stratum": "random",
+      "decision": "not_applicable",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_031",
+      "stratum": "diagnostic",
+      "decision": "negative",
+      "review_status": "reviewed_by_codex",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_032",
+      "stratum": "diagnostic",
+      "decision": "negative",
+      "review_status": "reviewed_by_codex",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_033",
+      "stratum": "diagnostic",
+      "decision": "negative",
+      "review_status": "reviewed_by_codex",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_034",
+      "stratum": "diagnostic",
+      "decision": "negative",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_035",
+      "stratum": "diagnostic",
+      "decision": "positive",
+      "review_status": "draft",
+      "edge_count": 1,
+      "structure_preserved": true,
+      "fixed_preserved": true,
+      "pair_class": "both_preserve"
+    },
+    {
+      "record_id": "pilot_036",
+      "stratum": "diagnostic",
+      "decision": "negative",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_037",
+      "stratum": "diagnostic",
+      "decision": "uncertain",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_038",
+      "stratum": "diagnostic",
+      "decision": "positive",
+      "review_status": "draft",
+      "edge_count": 6,
+      "structure_preserved": true,
+      "fixed_preserved": false,
+      "pair_class": "structure_only"
+    },
+    {
+      "record_id": "pilot_039",
+      "stratum": "diagnostic",
+      "decision": "negative",
+      "review_status": "reviewed_by_codex",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_040",
+      "stratum": "diagnostic",
+      "decision": "positive",
+      "review_status": "draft",
+      "edge_count": 1,
+      "structure_preserved": true,
+      "fixed_preserved": false,
+      "pair_class": "structure_only"
+    },
+    {
+      "record_id": "pilot_041",
+      "stratum": "diagnostic",
+      "decision": "negative",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_042",
+      "stratum": "diagnostic",
+      "decision": "negative",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_043",
+      "stratum": "diagnostic",
+      "decision": "negative",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_044",
+      "stratum": "diagnostic",
+      "decision": "negative",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_045",
+      "stratum": "diagnostic",
+      "decision": "negative",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_046",
+      "stratum": "diagnostic",
+      "decision": "negative",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_047",
+      "stratum": "diagnostic",
+      "decision": "negative",
+      "review_status": "reviewed_by_codex",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_048",
+      "stratum": "diagnostic",
+      "decision": "negative",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_049",
+      "stratum": "diagnostic",
+      "decision": "positive",
+      "review_status": "draft",
+      "edge_count": 1,
+      "structure_preserved": true,
+      "fixed_preserved": true,
+      "pair_class": "both_preserve"
+    },
+    {
+      "record_id": "pilot_050",
+      "stratum": "diagnostic",
+      "decision": "positive",
+      "review_status": "draft",
+      "edge_count": 3,
+      "structure_preserved": true,
+      "fixed_preserved": true,
+      "pair_class": "both_preserve"
+    },
+    {
+      "record_id": "pilot_051",
+      "stratum": "diagnostic",
+      "decision": "negative",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_052",
+      "stratum": "diagnostic",
+      "decision": "negative",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_053",
+      "stratum": "diagnostic",
+      "decision": "negative",
+      "review_status": "draft",
+      "edge_count": 1
+    },
+    {
+      "record_id": "pilot_054",
+      "stratum": "diagnostic",
+      "decision": "negative",
+      "review_status": "draft",
+      "edge_count": 1
+    }
+  ]
+}

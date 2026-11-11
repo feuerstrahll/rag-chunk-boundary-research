@@ -1,0 +1,6 @@
+{
+  "all_documents": 1144,
+  "all_chunks": 4790,
+  "both_flags_off_match_v1_spans_ids_text_tokens_fallback": true,
+  "encoder_inference": false
+}

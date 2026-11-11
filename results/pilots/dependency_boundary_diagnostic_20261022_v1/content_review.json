@@ -1,0 +1,18 @@
+{
+  "status": "content_review_completed_before_boundary_reveal",
+  "rule": "Assess necessary context for understanding a fragment, not merely steps required to execute a procedure",
+  "cases": [
+    {"case_id":"boundary_01","decision":"uncertain","b_block_suffix":"70","necessary_a":[],"rationale":"'this data set' points outside the displayed local blocks; the preceding image and comment do not establish its referent. Wider source context is needed.","parser_issue":""},
+    {"case_id":"boundary_02","decision":"negative","b_block_suffix":"37","necessary_a":[],"rationale":"The heading names the next operation and its object. Earlier connection-creation routes are procedural prerequisites, not text needed to understand the heading.","parser_issue":""},
+    {"case_id":"boundary_03","decision":"uncertain","b_block_suffix":"37","necessary_a":[],"rationale":"The long block combines several tips and headings. A single B and minimal A cannot be assigned reliably to the whole flattened block.","parser_issue":"Flattened multi-heading paragraph in canonical text."},
+    {"case_id":"boundary_04","decision":"negative","b_block_suffix":"97","necessary_a":[],"rationale":"The heading names the Data Refinery flow and promotion to a space; deletion instructions before it are not needed.","parser_issue":""},
+    {"case_id":"boundary_05","decision":"negative","b_block_suffix":"45","necessary_a":[],"rationale":"Generic section heading; the preceding rename instruction does not define it. The following heading identifies the operation.","parser_issue":""},
+    {"case_id":"boundary_06","decision":"negative","b_block_suffix":"18","necessary_a":[],"rationale":"Personal-credential setting and shared-credential default are explicit in the item; prior security bullets are separate mechanisms.","parser_issue":""},
+    {"case_id":"boundary_07","decision":"negative","b_block_suffix":"8","necessary_a":[],"rationale":"The security heading is self-contained; the preceding configuration table belongs to another section.","parser_issue":""},
+    {"case_id":"boundary_08","decision":"negative","b_block_suffix":"33","necessary_a":[],"rationale":"The heading states the decision criterion. The earlier private-connectivity note is a special condition, not context needed to understand the heading.","parser_issue":""},
+    {"case_id":"boundary_09","decision":"negative","b_block_suffix":"6","necessary_a":[],"rationale":"The table itself names IBM watsonx repeatedly and has Task, Location, Required Role and Description columns; the caption adds a summary, not a necessary referent.","parser_issue":"Whole Markdown table flattened into one oversized paragraph."},
+    {"case_id":"boundary_10","decision":"uncertain","b_block_suffix":"37","necessary_a":[],"rationale":"Same flattened block as boundary_03; no unique minimal dependency can be assigned without defining a smaller B span.","parser_issue":"Flattened multi-heading paragraph in canonical text."},
+    {"case_id":"boundary_11","decision":"negative","b_block_suffix":"23","necessary_a":[],"rationale":"The table has Sample name, Framework and Techniques demonstrated columns; no shown external A is required to interpret the rows.","parser_issue":"Whole Markdown table flattened into one oversized paragraph."},
+    {"case_id":"boundary_12","decision":"negative","b_block_suffix":"6","necessary_a":[],"rationale":"Same table as boundary_09; it names IBM watsonx internally. This is a second location within one source block, not an independent dependency.","parser_issue":"Whole Markdown table flattened into one oversized paragraph."}
+  ]
+}

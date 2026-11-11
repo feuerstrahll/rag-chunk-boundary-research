@@ -1,0 +1,17 @@
+[
+  {
+    "run": "context_sufficiency_mistral_20261027_v1",
+    "source_sha256": "95079d20d251b0190fd0dc60d2e101879d4054734f214a3c1d4e1a6f4d39fc1c",
+    "archived_source": "source_snapshots/context_sufficiency_mistral_20261027_v1.py"
+  },
+  {
+    "run": "context_sufficiency_mistral_20261027_v2",
+    "source_sha256": "c346709dd8be95fc80b87374e7a8f98f63da80868b48c37f53f43bc04c119e0b",
+    "archived_source": "source_snapshots/context_sufficiency_mistral_20261027_v2.py"
+  },
+  {
+    "run": "context_sufficiency_mistral_small_20261027_v1",
+    "source_sha256": "aef4e532d2b57cee0cf6d7abd831e305ac74cec96659f728a39360dd98290bc7",
+    "archived_source": "source_snapshots/context_sufficiency_mistral_small_20261027_v1.py"
+  }
+]

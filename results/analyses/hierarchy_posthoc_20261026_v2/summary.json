@@ -1,0 +1,51 @@
+{
+  "status": "post_outcome_exploratory_no_new_indexing",
+  "corpus_bands": {
+    "<=510": 479,
+    "511-1024": 297,
+    "1025-2048": 226,
+    ">2048": 142
+  },
+  "question_bands": {
+    "<=510": 25,
+    "511-1024": 37,
+    "1025-2048": 30,
+    ">2048": 26
+  },
+  "token_length_distribution": {
+    "min": 25,
+    "p10": 114.30000000000001,
+    "p25": 284.5,
+    "p50": 644.0,
+    "p75": 1263.5,
+    "p90": 2323.6000000000013,
+    "p95": 3812.4499999999985,
+    "max": 14714
+  },
+  "heading_audit": {
+    "diagnostic_records": 133,
+    "documents": 23,
+    "distinct_terminal_heading_chunks": 133,
+    "heading_runs_with_multiple_headings": 0,
+    "direct_body_before_next_heading": 0,
+    "next_heading_is_descendant": 132,
+    "has_body_in_subtree_after_comment_exclusion": 132,
+    "no_body_in_subtree_after_comment_exclusion": 1,
+    "heading_only_chunk_records": 121,
+    "chunk_has_other_body_records": 11,
+    "chunk_has_only_headings_and_comment_blocks_records": 1,
+    "heading_separate_from_first_subtree_body": 132,
+    "full_heading_body_fits_target": 132,
+    "full_heading_body_fits_encoder": 132,
+    "full_heading_body_exceeds_encoder": 0,
+    "minimal_heading_body_prefix_fits_encoder": 132,
+    "transfer_to_following_saved_chunk_fits_encoder": 133,
+    "whole_saved_chunk_pair_fits_encoder": 128,
+    "ablation_heading_and_full_first_body_together": 132,
+    "evaluation_questions_in_affected_documents": 1
+  },
+  "presentation_metric_mapping": {
+    "EvidenceRecall@5": "EvidenceSuccess@5_tau0.8",
+    "EvidenceMRR@5": "EvidenceMRR@5_tau0.8_single_chunk"
+  }
+}

@@ -1,0 +1,9 @@
+﻿{
+    "schema_version":  "1.0",
+    "status":  "unlabeled_json_workbook",
+    "source_pilot":  "dependency_pilot_20261022_v8",
+    "records":  54,
+    "workbook_sha256":  "11ddf3e38832632c1f6883cdfb487724f28965f44c6b7d5d65902599714874cc",
+    "source_manifest_sha256":  "703dbc1a714d5534eb217929c0175641df84623b3c8b7de689a79fc89ff1720c",
+    "generator_sha256":  "6fde455d86f2dc4886a14efd3d9f1cfbc45f4d48591ef5493aa142ad683e8317"
+}

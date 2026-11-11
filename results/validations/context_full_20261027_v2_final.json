@@ -1,0 +1,32 @@
+{
+  "status": "passed_research_artifacts_with_disclosed_legacy_test_environment_failures",
+  "validated_at_utc": "2026-10-27T00:14:15.293312+00:00",
+  "run_manifest_sha256": "e299d4bcf26bfc3b5ddd32c75583f063adf1c139d17b279efcc2fe8e5b7b07dd",
+  "interpretation_manifest_sha256": "7d3cfe66e86dcda23f6e0d44864463130d6a73335f1ee7c20d25256a2dc0f53b",
+  "all_recorded_artifact_hashes_verified": true,
+  "all_recorded_executed_source_hashes_verified": true,
+  "old_v1_and_posthoc_artifacts_unchanged": true,
+  "all_1062_metric_rows_independently_recomputed": true,
+  "full_v1_flags_off_equivalence": {
+    "all_documents": 1144,
+    "all_chunks": 4790,
+    "both_flags_off_match_v1_spans_ids_text_tokens_fallback": true,
+    "encoder_inference": false
+  },
+  "known_132_restored": 132,
+  "new_heading_breaks": 0,
+  "primary_hybrid_coverage_B1024": {
+    "v1": 0.7365838347649013,
+    "headings": 0.7365838347649013,
+    "headings_intro": 0.7365838347649013
+  },
+  "ruff_all_new_code_and_tests": "passed",
+  "tests": {
+    "new_and_v1_regression": "passed",
+    "full_suite_passed": 50,
+    "full_suite_failed": 5,
+    "failure_reason": "git executable absent in legacy inspect_materials tests"
+  },
+  "human_adjudicated_semantic_groups": 0,
+  "independent_confirmation_claimed": false
+}

@@ -1,0 +1,5 @@
+cohort,query_id,fixed_sufficient,structure_sufficient,difference
+AI-only,holdout_auto_003,0.0,0.0,0.0
+AI-only,holdout_auto_085,1.0,0.0,-1.0
+AI-only,holdout_auto_101,1.0,0.0,-1.0
+original-gold,train_8,0.0,1.0,1.0

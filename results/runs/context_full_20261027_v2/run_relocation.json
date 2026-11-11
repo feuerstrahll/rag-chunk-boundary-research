@@ -1,0 +1,8 @@
+{
+  "original_directory": "/home/nasty/ДИПЛОМ/article/results/runs/context_smoke_20261027_v2",
+  "final_directory": "/home/nasty/ДИПЛОМ/article/results/runs/context_full_20261027_v2",
+  "mode": "full; smoke=false; 118 questions per new variant",
+  "relocated_at_utc": "2026-10-26T23:59:45.885267+00:00",
+  "reason": "Corrected a misleading directory label after completed full retrieval; original command retained in preflight",
+  "original_artifact_bytes_verified_unchanged": true
+}

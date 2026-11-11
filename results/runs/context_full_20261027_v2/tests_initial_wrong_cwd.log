@@ -1,0 +1,16 @@
+
+==================================== ERRORS ====================================
+_______ ERROR collecting article/tests/test_dependency_json_workbook.py ________
+ImportError while importing test module '/home/nasty/ДИПЛОМ/article/tests/test_dependency_json_workbook.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.13/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+article/tests/test_dependency_json_workbook.py:7: in <module>
+    from scripts.dependency_json_workbook import create, export
+E   ModuleNotFoundError: No module named 'scripts'
+=========================== short test summary info ============================
+ERROR article/tests/test_dependency_json_workbook.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+1 error in 21.16s

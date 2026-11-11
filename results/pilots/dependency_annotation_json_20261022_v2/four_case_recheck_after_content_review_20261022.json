@@ -1,0 +1,25 @@
+{
+  "status": "draft_recheck_or_pending_human_review",
+  "max_tokens": 510,
+  "source_workbook": "results\\pilots\\dependency_annotation_json_20261022_v2\\annotation_workbook.json",
+  "cases": [
+    {
+      "record_id": "pilot_031",
+      "status": "no_positive_group_after_review"
+    },
+    {
+      "record_id": "pilot_032",
+      "status": "no_positive_group_after_review"
+    },
+    {
+      "record_id": "pilot_033",
+      "status": "no_positive_group_after_review"
+    },
+    {
+      "record_id": "pilot_047",
+      "status": "no_positive_group_after_review"
+    }
+  ],
+  "human_verification": false,
+  "go_no_go": "not_assessed"
+}

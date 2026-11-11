@@ -1,0 +1,29 @@
+{
+  "documents": 1144,
+  "heading_levels": {
+    "1": 1140,
+    "2": 1673,
+    "3": 1351,
+    "4": 193
+  },
+  "parsed_block_types": {
+    "heading": 4357,
+    "paragraph": 19474,
+    "list": 8314
+  },
+  "documents_with_comment_blocks": 1144,
+  "no_heading_documents": 1,
+  "one_heading_documents": 670,
+  "gold_coordinate_system": "pipeline_document.canonical_text",
+  "gold_exact_span_checks_passed": true,
+  "source_html_tags": {
+    "table": 505,
+    "pre": 979,
+    "code": 11499
+  },
+  "source_html_documents_with_tag": {
+    "table": 342,
+    "pre": 284,
+    "code": 607
+  }
+}

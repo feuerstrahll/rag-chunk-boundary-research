@@ -1,0 +1,328 @@
+{
+  "status": "post_outcome_exploratory_interpretation_no_method_changes",
+  "paired_changed_query_counts": [
+    {
+      "method": "bm25",
+      "paired_queries": 118,
+      "EvidenceCoverage@B=1024": 0,
+      "EvidenceCoverage@5": 0,
+      "EvidenceMRR@5": 1,
+      "DocumentMRR@10": 1,
+      "actual_context_tokens_B1024": 76
+    },
+    {
+      "method": "dense",
+      "paired_queries": 118,
+      "EvidenceCoverage@B=1024": 0,
+      "EvidenceCoverage@5": 0,
+      "EvidenceMRR@5": 3,
+      "DocumentMRR@10": 3,
+      "actual_context_tokens_B1024": 78
+    },
+    {
+      "method": "hybrid",
+      "paired_queries": 118,
+      "EvidenceCoverage@B=1024": 0,
+      "EvidenceCoverage@5": 0,
+      "EvidenceMRR@5": 2,
+      "DocumentMRR@10": 3,
+      "actual_context_tokens_B1024": 44
+    }
+  ],
+  "changed_document_ids": [
+    "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45",
+    "2A95F85CD3F7250FCBA52D8FDD82D1502FC617D6",
+    "2BB452B4C9E3458BC02A9D392961E9C643E402DE",
+    "30A8256A4972314DA32827A081B7541138B454A9",
+    "3F0B3A581945A1C7FE243340843CC4671A4E32C6",
+    "4451C208E0350C4C480F50929BD6735588B6F2BC",
+    "448502B5D06CD5BCAA58F569AA43AA2E0394A794",
+    "53EE442D78ABE20AAA100DDA3FF139E566842C2E",
+    "5B0B25C87C4C2D91E8376D2AFF3726E4CA355F36",
+    "5BC1631D896899D03E7D8DD2296C21656DD169FF",
+    "5D1BCA52E974C3F4DE54366A242DF751E73ACBD2",
+    "653F494EE7F3D688FCAEB05AFF303354D718EAB5",
+    "6E25D98279484E1D63CDEEFDD1D6A9F1917F1BA8",
+    "7B8B04B66E56FA847F1ACA3218EB99F3E568EEC7",
+    "812C39CF410F9FE3F0D0E7C62ED1BC015370C849",
+    "8B34DED3493E5181B1D19F6D14A9598CFEAA5997",
+    "92B00BEE2E48F01962BBBBAC49CF87587710F35F",
+    "93A3A5E1A633EB2AB616759DFB76DC433ABD4D38",
+    "A5C7CF086B303923D48F8AD63CF85A6BCCBBE3F5",
+    "AAE40F1CC335A650C1EB806E404394DA596FB433",
+    "BE7F45C3E17998A50B8414D623007ED668B37C04",
+    "C038BA342A00562BCB7A569E4E2ACB7349C9CEF9",
+    "C07CD6DF8C92EDD0F2638573BFDCE7BF18AA2EB0",
+    "C32FE380CF3083B6D85554063B5ACB153FC1C8BE",
+    "C926DFB3758881E6698F630E496F3817101E4176",
+    "CD1C58AD8E180AB922890FA8182FF7F51C589962",
+    "D9B02A6929162AF5F13E95C700CE0E548F6A9EE3",
+    "E2089A0F2315F9897F6E3DDE50E4FC3EBD2E65AA",
+    "F003581774D3028EF53E61A002C20A6D36BA8E00",
+    "F4A482326D45DC729EB8D1A6735CEFACD7AE5578",
+    "F839CD35991DF790F17239C9C63BFCAE701F3D65",
+    "F8EBEE6125BEE635DD8AF7BF2F6340D58CE99958",
+    "FD0BA49BF07FCC9CAF384A50B3012F98E4F1D81E"
+  ],
+  "evaluation_queries_in_changed_documents": [
+    {
+      "query_id": "holdout_auto_029",
+      "doc_id": "30A8256A4972314DA32827A081B7541138B454A9"
+    },
+    {
+      "query_id": "holdout_auto_045",
+      "doc_id": "5B0B25C87C4C2D91E8376D2AFF3726E4CA355F36"
+    },
+    {
+      "query_id": "holdout_auto_104",
+      "doc_id": "D9B02A6929162AF5F13E95C700CE0E548F6A9EE3"
+    }
+  ],
+  "index_preserved_but_returned_context_incomplete": [
+    {
+      "variant": "v1",
+      "query_id": "holdout_auto_086",
+      "group": {
+        "group_id": "chain:B0DA6CD45BFD0D3A91F0B3C4E7615DE23FE4F350:markdown:21",
+        "doc_id": "B0DA6CD45BFD0D3A91F0B3C4E7615DE23FE4F350",
+        "cohort": "structural_chain",
+        "b_span": [
+          2329,
+          2637
+        ],
+        "a_spans": [
+          [
+            2264,
+            2327
+          ]
+        ],
+        "label_provenance": "structural_definition_not_semantic_annotation",
+        "human_adjudicated": false
+      },
+      "co_located_index_chunks": [
+        {
+          "chunk_id": "chk_399b98ecc765794a572e868ac5ab4910",
+          "span": [
+            785,
+            2637
+          ],
+          "tokens": 468,
+          "hybrid_rank": 4,
+          "budget_remaining_at_rank": 268,
+          "a_quotes": [
+            "Step 2: Allow IP addresses for Watson Studio for your region ##"
+          ]
+        }
+      ],
+      "selected_context": {
+        "query_id": "holdout_auto_086",
+        "method": "hybrid",
+        "used_tokens": 1015,
+        "chunks": [
+          {
+            "chunk_id": "chk_e9cf1708519e2f2a4efc529b10ff3e0f",
+            "doc_id": "3D1B3C707202F30F8995025F356F82ABBE685B93",
+            "char_start": 1109,
+            "char_end": 2150,
+            "token_count": 299,
+            "rank": 1
+          },
+          {
+            "chunk_id": "chk_3d1cdd892a1481f437b64134ec8207bd",
+            "doc_id": "B0DA6CD45BFD0D3A91F0B3C4E7615DE23FE4F350",
+            "char_start": 2329,
+            "char_end": 3977,
+            "token_count": 457,
+            "rank": 2
+          },
+          {
+            "chunk_id": "chk_7f89d94d7ce6b3fe54e468c51053ec95",
+            "doc_id": "B0DA6CD45BFD0D3A91F0B3C4E7615DE23FE4F350",
+            "char_start": 0,
+            "char_end": 783,
+            "token_count": 229,
+            "rank": 6
+          },
+          {
+            "chunk_id": "chk_a91454cd7d1b8a8c4f369a6e73a6832b",
+            "doc_id": "93A3A5E1A633EB2AB616759DFB76DC433ABD4D38",
+            "char_start": 0,
+            "char_end": 160,
+            "token_count": 30,
+            "rank": 32
+          }
+        ]
+      }
+    },
+    {
+      "variant": "headings",
+      "query_id": "holdout_auto_086",
+      "group": {
+        "group_id": "chain:B0DA6CD45BFD0D3A91F0B3C4E7615DE23FE4F350:markdown:21",
+        "doc_id": "B0DA6CD45BFD0D3A91F0B3C4E7615DE23FE4F350",
+        "cohort": "structural_chain",
+        "b_span": [
+          2329,
+          2637
+        ],
+        "a_spans": [
+          [
+            2264,
+            2327
+          ]
+        ],
+        "label_provenance": "structural_definition_not_semantic_annotation",
+        "human_adjudicated": false
+      },
+      "co_located_index_chunks": [
+        {
+          "chunk_id": "chk_399b98ecc765794a572e868ac5ab4910",
+          "span": [
+            785,
+            2637
+          ],
+          "tokens": 468,
+          "hybrid_rank": 4,
+          "budget_remaining_at_rank": 268,
+          "a_quotes": [
+            "Step 2: Allow IP addresses for Watson Studio for your region ##"
+          ]
+        }
+      ],
+      "selected_context": {
+        "query_id": "holdout_auto_086",
+        "method": "hybrid",
+        "used_tokens": 1015,
+        "chunks": [
+          {
+            "chunk_id": "chk_e9cf1708519e2f2a4efc529b10ff3e0f",
+            "doc_id": "3D1B3C707202F30F8995025F356F82ABBE685B93",
+            "char_start": 1109,
+            "char_end": 2150,
+            "token_count": 299,
+            "rank": 1
+          },
+          {
+            "chunk_id": "chk_3d1cdd892a1481f437b64134ec8207bd",
+            "doc_id": "B0DA6CD45BFD0D3A91F0B3C4E7615DE23FE4F350",
+            "char_start": 2329,
+            "char_end": 3977,
+            "token_count": 457,
+            "rank": 2
+          },
+          {
+            "chunk_id": "chk_7f89d94d7ce6b3fe54e468c51053ec95",
+            "doc_id": "B0DA6CD45BFD0D3A91F0B3C4E7615DE23FE4F350",
+            "char_start": 0,
+            "char_end": 783,
+            "token_count": 229,
+            "rank": 6
+          },
+          {
+            "chunk_id": "chk_a91454cd7d1b8a8c4f369a6e73a6832b",
+            "doc_id": "93A3A5E1A633EB2AB616759DFB76DC433ABD4D38",
+            "char_start": 0,
+            "char_end": 160,
+            "token_count": 30,
+            "rank": 33
+          }
+        ]
+      }
+    },
+    {
+      "variant": "headings_intro",
+      "query_id": "holdout_auto_086",
+      "group": {
+        "group_id": "chain:B0DA6CD45BFD0D3A91F0B3C4E7615DE23FE4F350:markdown:21",
+        "doc_id": "B0DA6CD45BFD0D3A91F0B3C4E7615DE23FE4F350",
+        "cohort": "structural_chain",
+        "b_span": [
+          2329,
+          2637
+        ],
+        "a_spans": [
+          [
+            2264,
+            2327
+          ]
+        ],
+        "label_provenance": "structural_definition_not_semantic_annotation",
+        "human_adjudicated": false
+      },
+      "co_located_index_chunks": [
+        {
+          "chunk_id": "chk_399b98ecc765794a572e868ac5ab4910",
+          "span": [
+            785,
+            2637
+          ],
+          "tokens": 468,
+          "hybrid_rank": 4,
+          "budget_remaining_at_rank": 268,
+          "a_quotes": [
+            "Step 2: Allow IP addresses for Watson Studio for your region ##"
+          ]
+        }
+      ],
+      "selected_context": {
+        "query_id": "holdout_auto_086",
+        "method": "hybrid",
+        "used_tokens": 1015,
+        "chunks": [
+          {
+            "chunk_id": "chk_e9cf1708519e2f2a4efc529b10ff3e0f",
+            "doc_id": "3D1B3C707202F30F8995025F356F82ABBE685B93",
+            "char_start": 1109,
+            "char_end": 2150,
+            "token_count": 299,
+            "rank": 1
+          },
+          {
+            "chunk_id": "chk_3d1cdd892a1481f437b64134ec8207bd",
+            "doc_id": "B0DA6CD45BFD0D3A91F0B3C4E7615DE23FE4F350",
+            "char_start": 2329,
+            "char_end": 3977,
+            "token_count": 457,
+            "rank": 2
+          },
+          {
+            "chunk_id": "chk_7f89d94d7ce6b3fe54e468c51053ec95",
+            "doc_id": "B0DA6CD45BFD0D3A91F0B3C4E7615DE23FE4F350",
+            "char_start": 0,
+            "char_end": 783,
+            "token_count": 229,
+            "rank": 6
+          },
+          {
+            "chunk_id": "chk_a91454cd7d1b8a8c4f369a6e73a6832b",
+            "doc_id": "93A3A5E1A633EB2AB616759DFB76DC433ABD4D38",
+            "char_start": 0,
+            "char_end": 160,
+            "token_count": 30,
+            "rank": 33
+          }
+        ]
+      }
+    }
+  ],
+  "existing_AI_label_outside_rule": [
+    {
+      "variant": "headings_intro",
+      "group_id": "pilot_040",
+      "doc_id": "292D19849E8FBE48869F5E3A50439964563A90D1",
+      "cohort": "existing_content_checked_AI",
+      "preserved": "False",
+      "continuous_interval_tokens": "467",
+      "fits_target": "True",
+      "fits_encoder": "True",
+      "label_provenance": "AI_ChatGPT_content_checked",
+      "human_adjudicated": "False",
+      "a_quotes": [
+        "create a notebook"
+      ],
+      "b_quote": "-  Tips for completing this tutorial"
+    }
+  ],
+  "retrieval_rerun": false,
+  "new_semantic_labels": 0
+}

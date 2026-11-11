@@ -1,0 +1,413 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-10-15T18:09:58Z",
+  "environment": {
+    "python": "3.11.2",
+    "python_executable": "C:\\Users\\nasty\\\u0414\u0418\u041f\u041b\u041e\u041c\\techdoc-chunking-pipeline\\.venv\\Scripts\\python.exe",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "packages": {
+      "datasets": "5.0.1",
+      "numpy": "2.4.6",
+      "orjson": "3.12.0",
+      "pyarrow": "25.0.1",
+      "pydantic": "2.13.5",
+      "sentence-transformers": "6.1.0",
+      "tokenizers": "0.23.2",
+      "torch": "2.14.1",
+      "transformers": "5.18.0"
+    }
+  },
+  "repositories": {
+    "article": {
+      "path": "C:\\Users\\nasty\\\u0414\u0418\u041f\u041b\u041e\u041c\\article",
+      "git_root": "C:/Users/nasty/\u0414\u0418\u041f\u041b\u041e\u041c",
+      "head": null,
+      "unborn_head": true,
+      "dirty": true,
+      "status": [
+        "?? article/AGENTS.md",
+        "?? article/README.md",
+        "?? article/docs/materials_inventory.md",
+        "?? article/docs/research_context.md",
+        "?? article/docs/stage_a_plan.md",
+        "?? article/docs/workspace_context.md",
+        "?? article/scripts/inspect_materials.py",
+        "?? article/tests/test_inspect_materials.py"
+      ],
+      "errors": [],
+      "containing_repository": "C:\\Users\\nasty\\\u0414\u0418\u041f\u041b\u041e\u041c"
+    },
+    "root": {
+      "path": "C:\\Users\\nasty\\\u0414\u0418\u041f\u041b\u041e\u041c",
+      "git_root": "C:/Users/nasty/\u0414\u0418\u041f\u041b\u041e\u041c",
+      "head": null,
+      "unborn_head": true,
+      "dirty": true,
+      "status": [
+        "?? %SystemDrive%/ProgramData/Microsoft/Windows/Caches/cversions.2.db",
+        "?? %SystemDrive%/ProgramData/Microsoft/Windows/Caches/{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000001.db",
+        "?? %SystemDrive%/ProgramData/Microsoft/Windows/Caches/{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db",
+        "?? %SystemDrive%/ProgramData/Microsoft/Windows/Caches/{FD420F11-1F59-49B3-AB9B-1095D75DD6A7}.2.ver0x0000000000000001.db",
+        "?? article/AGENTS.md",
+        "?? article/README.md",
+        "?? article/docs/materials_inventory.md",
+        "?? article/docs/research_context.md",
+        "?? article/docs/stage_a_plan.md",
+        "?? article/docs/workspace_context.md",
+        "?? article/scripts/inspect_materials.py",
+        "?? article/tests/test_inspect_materials.py",
+        "?? techdoc-chunking-pipeline/"
+      ],
+      "errors": []
+    },
+    "upstream": {
+      "path": "C:\\Users\\nasty\\\u0414\u0418\u041f\u041b\u041e\u041c\\techdoc-chunking-pipeline",
+      "git_root": "C:/Users/nasty/\u0414\u0418\u041f\u041b\u041e\u041c/techdoc-chunking-pipeline",
+      "head": "7d986ef68401b475f3cdc33694ac0c8cc7bac630",
+      "unborn_head": false,
+      "dirty": true,
+      "status": [
+        " M pyproject.toml",
+        " M src/evaluation/__init__.py",
+        " M src/retrieval/__init__.py",
+        " M src/retrieval/ranking.py",
+        " M uv.lock",
+        "?? configs/computational_efficiency.yaml",
+        "?? configs/metadata_ablation_v2.yaml",
+        "?? results/report/computational_efficiency.md",
+        "?? scripts/run_computational_efficiency.py",
+        "?? scripts/run_metadata_ablation_v2.py",
+        "?? src/evaluation/efficiency.py",
+        "?? src/metadata_ablation/__init__.py",
+        "?? src/metadata_ablation/chunker.py",
+        "?? src/metadata_ablation/representation.py",
+        "?? tests/test_computational_efficiency.py",
+        "?? tests/test_metadata_ablation_v2.py"
+      ],
+      "errors": []
+    }
+  },
+  "files": [
+    {
+      "id": "corpus",
+      "role": "raw_input",
+      "path": "data/raw/watsonx_docsqa/f7da4b6d8a8c4609c49fda06af3bea29b6ef9be4/corpus/train-00000-of-00001.parquet",
+      "size_bytes": 6027066,
+      "sha256": "fb56d7c847f576d72f32669b01feb47e38788b7e91deeecdcdbcc2b9995fdd6b",
+      "expected_sha256": "fb56d7c847f576d72f32669b01feb47e38788b7e91deeecdcdbcc2b9995fdd6b",
+      "matches_expected_sha256": true
+    },
+    {
+      "id": "fixed_matched_chunks",
+      "role": "historical_chunks",
+      "path": "results/watsonx_budget_matched/md_document/fixed_matched/chunks.jsonl",
+      "size_bytes": 24880258,
+      "sha256": "80774d1d19a3aa40cce4ffe645eca2c87444767b8fcb3bb171093de6a2c72033"
+    },
+    {
+      "id": "historical_summary",
+      "role": "historical_result",
+      "path": "results/watsonx_budget_matched/summary.json",
+      "size_bytes": 53132,
+      "sha256": "83dc88fa371e1dd835ea0cc1ed675f54e5a7a5800727f4a113d7f53e3c4c9f0b"
+    },
+    {
+      "id": "qa_test",
+      "role": "raw_input",
+      "path": "data/raw/watsonx_docsqa/f7da4b6d8a8c4609c49fda06af3bea29b6ef9be4/question_answers/test-00000-of-00001.parquet",
+      "size_bytes": 22872,
+      "sha256": "bea3bd567eb95b29b3d3e4b185ed6bb0bad114b897ac42c9bac3f4fec054a18a",
+      "expected_sha256": "bea3bd567eb95b29b3d3e4b185ed6bb0bad114b897ac42c9bac3f4fec054a18a",
+      "matches_expected_sha256": true
+    },
+    {
+      "id": "qa_train",
+      "role": "raw_input",
+      "path": "data/raw/watsonx_docsqa/f7da4b6d8a8c4609c49fda06af3bea29b6ef9be4/question_answers/train-00000-of-00001.parquet",
+      "size_bytes": 35202,
+      "sha256": "73c81739e29b2e5fac82accb43d7b3a7f319e047ae56f421dd8d3804f0742bb1",
+      "expected_sha256": "73c81739e29b2e5fac82accb43d7b3a7f319e047ae56f421dd8d3804f0742bb1",
+      "matches_expected_sha256": true
+    },
+    {
+      "id": "source:configs/analysis_contract.yaml",
+      "role": "upstream_source",
+      "path": "configs/analysis_contract.yaml",
+      "size_bytes": 824,
+      "sha256": "e7a35ebabb65b060a54597f36105495f11567a86c066fbac73ddd28b32b822ea"
+    },
+    {
+      "id": "source:configs/watsonx_retrieval.yaml",
+      "role": "upstream_source",
+      "path": "configs/watsonx_retrieval.yaml",
+      "size_bytes": 753,
+      "sha256": "8bfd8fa60d1afb8c4f6517b18eeecc0019dca575786f00f35477cdb2baa4d1b3"
+    },
+    {
+      "id": "source:pyproject.toml",
+      "role": "upstream_source",
+      "path": "pyproject.toml",
+      "size_bytes": 699,
+      "sha256": "04a46968a455c82433d0d5dfde651d225aad258ebe8ac454a01a6d71d3b1c510"
+    },
+    {
+      "id": "source:scripts/run_watsonx_budget_matched.py",
+      "role": "upstream_source",
+      "path": "scripts/run_watsonx_budget_matched.py",
+      "size_bytes": 20539,
+      "sha256": "0bfa825ea307fc232a8305aab27d0403e10cea0813872066cab8ffe537ff1669"
+    },
+    {
+      "id": "source:scripts/run_watsonx_retrieval.py",
+      "role": "upstream_source",
+      "path": "scripts/run_watsonx_retrieval.py",
+      "size_bytes": 23109,
+      "sha256": "468234918ed72edb094aeb004e16d24ad1c89e1025140ac4f18528ff28830134"
+    },
+    {
+      "id": "source:src/chunking/fixed.py",
+      "role": "upstream_source",
+      "path": "src/chunking/fixed.py",
+      "size_bytes": 12920,
+      "sha256": "aeefb415601bc47e806dd62d6b580841872c94baf2c7596250344679c1ed2896"
+    },
+    {
+      "id": "source:src/chunking/structure.py",
+      "role": "upstream_source",
+      "path": "src/chunking/structure.py",
+      "size_bytes": 7926,
+      "sha256": "030a747812ae5319988d65af0c0c0c91ed2081ec48fdaa738f7995c88cb4e1e4"
+    },
+    {
+      "id": "source:src/evaluation/retrieval.py",
+      "role": "upstream_source",
+      "path": "src/evaluation/retrieval.py",
+      "size_bytes": 10755,
+      "sha256": "c5e8fff1854b072ebda2382e939aa4016131f7ce79106f2126f43b4acd9efbad"
+    },
+    {
+      "id": "source:src/models/contracts.py",
+      "role": "upstream_source",
+      "path": "src/models/contracts.py",
+      "size_bytes": 6729,
+      "sha256": "31c982898dc8d2b61d8415cd4da12e5ecd37d8d62eab2494fea10b36198ebeba"
+    },
+    {
+      "id": "source:src/normalization/canonical.py",
+      "role": "upstream_source",
+      "path": "src/normalization/canonical.py",
+      "size_bytes": 1505,
+      "sha256": "1c265bbd2c9ee61758e7798f6fa77a601e2febcf0b9a0d1012c572a0312c9883"
+    },
+    {
+      "id": "source:src/parsers/markdown.py",
+      "role": "upstream_source",
+      "path": "src/parsers/markdown.py",
+      "size_bytes": 4190,
+      "sha256": "d7e86e75166947a6db46b3974e964de913ca1cc9e36c6929dde7c95fdb9138d2"
+    },
+    {
+      "id": "source:src/ragstudy/data/watsonx_qa.py",
+      "role": "upstream_source",
+      "path": "src/ragstudy/data/watsonx_qa.py",
+      "size_bytes": 2784,
+      "sha256": "48d1fad1a2b859abc5e34a9cc7bf27888cf0c51159b6aa81ca065fee312274c5"
+    },
+    {
+      "id": "source:src/retrieval/ranking.py",
+      "role": "upstream_source",
+      "path": "src/retrieval/ranking.py",
+      "size_bytes": 6633,
+      "sha256": "ba3d8e4f31d0cc47f852582ecd78023a735d5ae2f032547f0b55bc3fe22ec9ec"
+    },
+    {
+      "id": "source:uv.lock",
+      "role": "upstream_source",
+      "path": "uv.lock",
+      "size_bytes": 912568,
+      "sha256": "38a44b7a86dc9bb697f427bcfd08dac623de609d9cd917c8f0e1fe36df34a1a5"
+    },
+    {
+      "id": "structure_chunks",
+      "role": "historical_chunks",
+      "path": "results/watsonx_retrieval/md_document/structure/chunks.jsonl",
+      "size_bytes": 23271559,
+      "sha256": "fdecd09a5b0e9d2047afe0ae6d667bbd64f7d8eb1872c18bfd58d84c0f9e6d84"
+    },
+    {
+      "id": "structure_rankings",
+      "role": "historical_rankings",
+      "path": "results/watsonx_retrieval/md_document/structure/rankings.jsonl",
+      "size_bytes": 4237651,
+      "sha256": "08a571d23769ab74f22f8be9000ba03db4b2ccebd0f5c86bf2681bc90f791029"
+    }
+  ],
+  "parquet": [
+    {
+      "id": "corpus",
+      "path": "data/raw/watsonx_docsqa/f7da4b6d8a8c4609c49fda06af3bea29b6ef9be4/corpus/train-00000-of-00001.parquet",
+      "metadata_available": true,
+      "row_count": 1144,
+      "row_group_count": 1,
+      "schema": [
+        {
+          "name": "doc_id",
+          "type": "string",
+          "nullable": true
+        },
+        {
+          "name": "url",
+          "type": "string",
+          "nullable": true
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "nullable": true
+        },
+        {
+          "name": "document",
+          "type": "string",
+          "nullable": true
+        },
+        {
+          "name": "md_document",
+          "type": "string",
+          "nullable": true
+        },
+        {
+          "name": "html_document",
+          "type": "string",
+          "nullable": true
+        }
+      ]
+    },
+    {
+      "id": "qa_test",
+      "path": "data/raw/watsonx_docsqa/f7da4b6d8a8c4609c49fda06af3bea29b6ef9be4/question_answers/test-00000-of-00001.parquet",
+      "metadata_available": true,
+      "row_count": 30,
+      "row_group_count": 1,
+      "schema": [
+        {
+          "name": "question_id",
+          "type": "string",
+          "nullable": true
+        },
+        {
+          "name": "question",
+          "type": "string",
+          "nullable": true
+        },
+        {
+          "name": "correct_answer",
+          "type": "string",
+          "nullable": true
+        },
+        {
+          "name": "correct_answer_document_ids",
+          "type": "string",
+          "nullable": true
+        },
+        {
+          "name": "ground_truths_contexts",
+          "type": "string",
+          "nullable": true
+        }
+      ]
+    },
+    {
+      "id": "qa_train",
+      "path": "data/raw/watsonx_docsqa/f7da4b6d8a8c4609c49fda06af3bea29b6ef9be4/question_answers/train-00000-of-00001.parquet",
+      "metadata_available": true,
+      "row_count": 45,
+      "row_group_count": 1,
+      "schema": [
+        {
+          "name": "question_id",
+          "type": "string",
+          "nullable": true
+        },
+        {
+          "name": "question",
+          "type": "string",
+          "nullable": true
+        },
+        {
+          "name": "correct_answer",
+          "type": "string",
+          "nullable": true
+        },
+        {
+          "name": "correct_answer_document_ids",
+          "type": "string",
+          "nullable": true
+        },
+        {
+          "name": "ground_truths_contexts",
+          "type": "string",
+          "nullable": true
+        }
+      ]
+    }
+  ],
+  "historical_result": {
+    "status": "historical_not_reproduced",
+    "documents": 1144,
+    "questions": 75,
+    "seed": 2026,
+    "dataset_revision": "f7da4b6d8a8c4609c49fda06af3bea29b6ef9be4",
+    "embedding": {
+      "model": "sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
+      "revision": "9c441fc9d77eb051358e49979a385d07a511c3c5"
+    },
+    "resolved_text_budget": 510,
+    "selected_fixed": {
+      "max_tokens": 241,
+      "overlap_tokens": 10,
+      "chunk_count": 6014,
+      "total_tokens": 1316311,
+      "chunk_count_gap": 0.001165307141668054,
+      "total_tokens_gap": 0.0002233015976697643,
+      "objective": 0.001165307141668054,
+      "pathological_match": false,
+      "pathological_reasons": []
+    },
+    "primary_result": {
+      "fixed": 0.6591693574788691,
+      "structure": 0.8802656941325335,
+      "difference": 0.22109633665366454,
+      "ci_lower": 0.13781090093583048,
+      "ci_upper": 0.31031551487139286,
+      "question_count": 75
+    },
+    "chunk_sets": [
+      {
+        "id": "fixed_matched_chunks",
+        "chunks": 6014,
+        "tokens": 1316311,
+        "documents": 1144
+      },
+      {
+        "id": "structure_chunks",
+        "chunks": 6007,
+        "tokens": 1316605,
+        "documents": 1144
+      }
+    ],
+    "structure_rankings": {
+      "unique_questions": 75,
+      "questions_by_split": {
+        "test": 30,
+        "train": 45
+      },
+      "rows_by_method": {
+        "bm25": 75,
+        "dense": 75,
+        "hybrid": 75
+      }
+    }
+  },
+  "warnings": [],
+  "errors": []
+}

@@ -1,0 +1,320 @@
+{
+  "status": "draft_recheck_or_pending_human_review",
+  "max_tokens": 510,
+  "source_workbook": "C:\\Users\\nasty\\Downloads\\annotation_workbook.json",
+  "cases": [
+    {
+      "record_id": "pilot_031",
+      "decision": "positive",
+      "review_status": "draft",
+      "a_count": 1,
+      "min_span_interval": [
+        9,
+        2066
+      ],
+      "min_span_contiguous_tokens": 743,
+      "whole_block_interval": [
+        0,
+        2066
+      ],
+      "whole_block_tokens": 744,
+      "intermediate_text_included": true,
+      "same_section_current_policy": true,
+      "block_distance": 19,
+      "whole_block_budget_ok": false,
+      "sentence_split_observation": "Splitting intermediate blocks without omitting or duplicating text cannot reduce the token count of the same contiguous canonical interval; actual sentence-boundary availability is a separate check.",
+      "parser_issue": "",
+      "anchors": [
+        {
+          "block_id": "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45:markdown:1",
+          "span": [
+            9,
+            28
+          ]
+        }
+      ],
+      "nearby_alternative_mentions": [
+        {
+          "block_id": "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45:markdown:14",
+          "candidate_a_span": [
+            1385,
+            1403
+          ],
+          "contiguous_tokens_to_b": 259,
+          "semantic_status": "candidate_only_human_must_judge_sufficiency"
+        },
+        {
+          "block_id": "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45:markdown:15",
+          "candidate_a_span": [
+            1560,
+            1578
+          ],
+          "contiguous_tokens_to_b": 196,
+          "semantic_status": "candidate_only_human_must_judge_sufficiency"
+        },
+        {
+          "block_id": "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45:markdown:19",
+          "candidate_a_span": [
+            1800,
+            1818
+          ],
+          "contiguous_tokens_to_b": 103,
+          "semantic_status": "candidate_only_human_must_judge_sufficiency"
+        }
+      ]
+    },
+    {
+      "record_id": "pilot_032",
+      "decision": "positive",
+      "review_status": "draft",
+      "a_count": 1,
+      "min_span_interval": [
+        9,
+        2215
+      ],
+      "min_span_contiguous_tokens": 798,
+      "whole_block_interval": [
+        0,
+        2215
+      ],
+      "whole_block_tokens": 799,
+      "intermediate_text_included": true,
+      "same_section_current_policy": true,
+      "block_distance": 20,
+      "whole_block_budget_ok": false,
+      "sentence_split_observation": "Splitting intermediate blocks without omitting or duplicating text cannot reduce the token count of the same contiguous canonical interval; actual sentence-boundary availability is a separate check.",
+      "parser_issue": "",
+      "anchors": [
+        {
+          "block_id": "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45:markdown:1",
+          "span": [
+            9,
+            28
+          ]
+        }
+      ],
+      "nearby_alternative_mentions": [
+        {
+          "block_id": "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45:markdown:15",
+          "candidate_a_span": [
+            1560,
+            1578
+          ],
+          "contiguous_tokens_to_b": 251,
+          "semantic_status": "candidate_only_human_must_judge_sufficiency"
+        },
+        {
+          "block_id": "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45:markdown:19",
+          "candidate_a_span": [
+            1800,
+            1818
+          ],
+          "contiguous_tokens_to_b": 158,
+          "semantic_status": "candidate_only_human_must_judge_sufficiency"
+        }
+      ]
+    },
+    {
+      "record_id": "pilot_033",
+      "decision": "positive",
+      "review_status": "draft",
+      "a_count": 1,
+      "min_span_interval": [
+        9,
+        2521
+      ],
+      "min_span_contiguous_tokens": 910,
+      "whole_block_interval": [
+        0,
+        2521
+      ],
+      "whole_block_tokens": 911,
+      "intermediate_text_included": true,
+      "same_section_current_policy": true,
+      "block_distance": 22,
+      "whole_block_budget_ok": false,
+      "sentence_split_observation": "Splitting intermediate blocks without omitting or duplicating text cannot reduce the token count of the same contiguous canonical interval; actual sentence-boundary availability is a separate check.",
+      "parser_issue": "",
+      "anchors": [
+        {
+          "block_id": "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45:markdown:1",
+          "span": [
+            9,
+            28
+          ]
+        }
+      ],
+      "nearby_alternative_mentions": [
+        {
+          "block_id": "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45:markdown:19",
+          "candidate_a_span": [
+            1800,
+            1818
+          ],
+          "contiguous_tokens_to_b": 270,
+          "semantic_status": "candidate_only_human_must_judge_sufficiency"
+        },
+        {
+          "block_id": "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45:markdown:22",
+          "candidate_a_span": [
+            2244,
+            2262
+          ],
+          "contiguous_tokens_to_b": 105,
+          "semantic_status": "candidate_only_human_must_judge_sufficiency"
+        }
+      ]
+    },
+    {
+      "record_id": "pilot_047",
+      "decision": "positive",
+      "review_status": "draft",
+      "a_count": 7,
+      "min_span_interval": [
+        6344,
+        7821
+      ],
+      "min_span_contiguous_tokens": 456,
+      "whole_block_interval": [
+        6344,
+        7977
+      ],
+      "whole_block_tokens": 509,
+      "intermediate_text_included": true,
+      "same_section_current_policy": true,
+      "block_distance": 8,
+      "whole_block_budget_ok": true,
+      "sentence_split_observation": "Splitting intermediate blocks without omitting or duplicating text cannot reduce the token count of the same contiguous canonical interval; actual sentence-boundary availability is a separate check.",
+      "parser_issue": "",
+      "anchors": [
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:12",
+          "span": [
+            6431,
+            6475
+          ]
+        },
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:13",
+          "span": [
+            6635,
+            6710
+          ]
+        },
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:14",
+          "span": [
+            6856,
+            6926
+          ]
+        },
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:15",
+          "span": [
+            7073,
+            7146
+          ]
+        },
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:16",
+          "span": [
+            7274,
+            7349
+          ]
+        },
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:17",
+          "span": [
+            7518,
+            7561
+          ]
+        },
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:18",
+          "span": [
+            7718,
+            7821
+          ]
+        }
+      ],
+      "document_partition_witness": {
+        "exists": true,
+        "chunks": [
+          {
+            "first_block": 1,
+            "last_block": 5,
+            "char_start": 0,
+            "char_end": 576,
+            "tokens": 127
+          },
+          {
+            "first_block": 6,
+            "last_block": 6,
+            "char_start": 578,
+            "char_end": 1814,
+            "tokens": 443,
+            "sentence_fragment": true
+          },
+          {
+            "first_block": 6,
+            "last_block": 6,
+            "char_start": 1814,
+            "char_end": 4585,
+            "tokens": 458,
+            "sentence_fragment": true
+          },
+          {
+            "first_block": 6,
+            "last_block": 6,
+            "char_start": 4585,
+            "char_end": 6087,
+            "tokens": 274,
+            "sentence_fragment": true
+          },
+          {
+            "first_block": 7,
+            "last_block": 7,
+            "char_start": 6089,
+            "char_end": 6109,
+            "tokens": 13
+          },
+          {
+            "first_block": 8,
+            "last_block": 9,
+            "char_start": 6111,
+            "char_end": 6342,
+            "tokens": 47
+          },
+          {
+            "first_block": 10,
+            "last_block": 18,
+            "char_start": 6344,
+            "char_end": 7977,
+            "tokens": 509
+          },
+          {
+            "first_block": 19,
+            "last_block": 19,
+            "char_start": 7979,
+            "char_end": 7993,
+            "tokens": 11
+          },
+          {
+            "first_block": 20,
+            "last_block": 27,
+            "char_start": 7995,
+            "char_end": 8742,
+            "tokens": 260
+          }
+        ],
+        "chunk_count": 9,
+        "sentence_split_blocks": [
+          6
+        ],
+        "scope": "ordered partition with sentence splits for oversized non-target blocks and no mandatory overlap; geometry witness, not retrieval result"
+      }
+    }
+  ],
+  "human_verification": false,
+  "go_no_go": "not_assessed"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "finished_at_utc": "2026-10-26T16:10:44.196554+00:00",
+  "variant": "fixed",
+  "config_sha256": "50814a69ca92a782c5b2a43200039bbb10c2a96ed4acaf90c7d68607efe6cde0",
+  "question_count": 118,
+  "artifact_sha256": {
+    "chunks.parquet": "7ff061f951a7f57074d9612d6e7dae51fa2cc239e29fa498b1a584394ba003d2",
+    "contexts.jsonl": "7da3d56cb38ab4962e257fc204e1ae90cbadbac0bdf9067c9ebde9bb5d8cc3b3",
+    "heading_diagnostics.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "index_statistics.json": "7fc2b7632fd56e4d990308d1eee14daeba79c0e337d0cf11c4698df30ff8eaef",
+    "per_question_metrics.parquet": "7d6a44b98aec5cecab0e473c51a4a228b3d0cff937c2507195d9f940e147984b",
+    "rankings.parquet": "8c5092c2d5500b11331e5fb94b9698208b9716d71e3e7c4793858351569d292e"
+  }
+}

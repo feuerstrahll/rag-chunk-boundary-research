@@ -1,0 +1,21 @@
+{
+  "status": "identical",
+  "reference_run": "C:\\Users\\nasty\\\u0414\u0418\u041f\u041b\u041e\u041c\\article\\results\\runs\\stage_a_train_run1_20261015",
+  "checks": {
+    "chunks.parquet": {
+      "current_sha256": "25592c94ac555ace98ded57e0ea1e4453722d16f2454ed1da559dd428ee3c346",
+      "reference_sha256": "25592c94ac555ace98ded57e0ea1e4453722d16f2454ed1da559dd428ee3c346",
+      "identical": true
+    },
+    "retrieval_runs.parquet": {
+      "current_sha256": "fef75ecf87fd6bfe3d2c7c23fc6c267eff0cd1cb5a6ca1281cce0c0ab2ac009a",
+      "reference_sha256": "fef75ecf87fd6bfe3d2c7c23fc6c267eff0cd1cb5a6ca1281cce0c0ab2ac009a",
+      "identical": true
+    },
+    "index_statistics.json": {
+      "current_sha256": "2e2da3e92faa388d01b2f7b80af3abe8d553e974fc6d5b446c29ec67f9bccd8e",
+      "reference_sha256": "2e2da3e92faa388d01b2f7b80af3abe8d553e974fc6d5b446c29ec67f9bccd8e",
+      "identical": true
+    }
+  }
+}

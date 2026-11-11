@@ -1,0 +1,3 @@
+cohort,contrast,difference,ci_lower,ci_upper,status
+AI-only,structure_minus_fixed,,,,not_evaluated_no_judge
+original-gold,structure_minus_fixed,,,,not_evaluated_no_judge

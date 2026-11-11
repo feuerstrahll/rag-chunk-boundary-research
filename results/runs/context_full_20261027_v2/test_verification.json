@@ -1,0 +1,36 @@
+{
+  "full_suite": {
+    "command": "HF_HUB_OFFLINE=1 HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 PYTHONDONTWRITEBYTECODE=1 .venv-hierarchy/bin/python -m pytest -q",
+    "cwd": "/home/nasty/ДИПЛОМ/article",
+    "passed": 50,
+    "failed": 5,
+    "exit_code": 1,
+    "log": "tests_full_suite.log",
+    "failures": [
+      "test_inspect_materials.py::test_missing_files_are_explicit_errors",
+      "test_inspect_materials.py::test_pyarrow_unavailable_has_warning_and_no_false_counts",
+      "test_inspect_materials.py::test_parquet_metadata_is_inspected_before_full_file_hash",
+      "test_inspect_materials.py::test_stable_top_level_schema_and_serialization",
+      "test_inspect_materials.py::test_git_inspection_handles_unicode_repository_path"
+    ],
+    "all_failure_cause": "FileNotFoundError: git executable is absent"
+  },
+  "all_new_tests_and_v1_regression_passed_in_full_suite": true,
+  "additional_updated_evaluation_and_report_tests": {
+    "passed": 6,
+    "failed": 0
+  },
+  "ruff_new_sources_and_tests": "passed",
+  "git_diff_check": "unavailable; git executable absent; frozen source SHA256 checks substituted for source identity, not for Git cleanliness",
+  "test_source_hashes": {
+    "tests/test_context_analysis.py": "1fd5a05f5b56ce353b6a8238857dee732e92b7756b9d575aef55999ae410aaea",
+    "tests/test_context_evaluation.py": "8056afff2cf70ef94688f910a7011ea60ad29336f54c293cb30b83e5fd335242",
+    "tests/test_context_packing.py": "e288a952ccc0cd7c626bc813f1b3599a00a9fd4b2a3112f98f91eb8fdc103711",
+    "tests/test_context_reporting.py": "2a9d2386d8bc68bc71427ae18f6ebc7a7c6c340c42ec39fa865f0f0eb81bb2e7",
+    "tests/test_dependency_json_workbook.py": "364486fb2bc249a4348b9adf697999d36a1e10c169637e59136623e3fdfd5431",
+    "tests/test_hierarchy_packing.py": "677f824617b11077b6523fb87ad5da5b281f3fb91d9e8297b3ac3c3c4441b9cc",
+    "tests/test_inspect_materials.py": "0dca4580b9f36c0315ded8b882cdee8cc64c71349ee55acb0cd9586143a8cfbf",
+    "tests/test_stage_a_baseline.py": "73e9e95df790a9f635cec50d7e93c3cde4443a11176f7931d77dc8fe876e1a6c"
+  },
+  "initial_root_cwd_collection_error_recorded_separately": true
+}

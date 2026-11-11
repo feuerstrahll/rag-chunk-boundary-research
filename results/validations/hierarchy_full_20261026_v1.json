@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "run": "/home/nasty/ДИПЛОМ/article/results/runs/hierarchy_full_20261026_v1",
+  "manifest_sha256": "dc7bbbaea59b24ec7faba07efcfe7219d54a3db47b137a55beb63a08c252632a",
+  "checked_per_question_rows": 1416,
+  "checked_full_rankings": 1416,
+  "checked_chunks": 17972,
+  "document_clusters": 118,
+  "maximum_returned_context_tokens": 1024,
+  "checks": [
+    "artifact_hashes",
+    "paired_population",
+    "ranking_depth_and_ties",
+    "metric_replay",
+    "document_max_pool_before_cutoff",
+    "context_selection_and_repeated_token_cost",
+    "aggregate_recalculation",
+    "chunk_cost_and_encoder_budget",
+    "dense_matrix_bytes"
+  ]
+}

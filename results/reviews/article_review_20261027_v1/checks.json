@@ -1,0 +1,192 @@
+{
+  "status": "passed_with_review_limits",
+  "result_type": "new_diagnostic_audit",
+  "created_at_utc": "2026-10-26T23:18:06.228498+00:00",
+  "python": "3.13.5",
+  "reviewed_docx": "«Разработка и исследование контекстно-зависимой сегментации длинных документов в RAG-системах».docx",
+  "reviewed_docx_sha256": "2d4a719e95225791e82800c75a7924e099f1a9ae476ed44affcd05ba61a7b906",
+  "verification_script_sha256": "163d93ec06fe350294e899b2c81d0ea2057053bcb2e6396fa6e6ea3e8ec4eea4",
+  "artifact_hash_counts": {
+    "results/runs/hierarchy_full_20261026_v1": 39,
+    "results/analyses/hierarchy_posthoc_20261026_v2": 7
+  },
+  "preflight_source_hashes_checked": 8,
+  "model_hashes_checked": 11,
+  "corpus_sha256": "fb56d7c847f576d72f32669b01feb47e38788b7e91deeecdcdbcc2b9995fdd6b",
+  "gold_sha256": "824cb306358eabb40275030637cdc039a46ae24e556ad4e166fb7cb86f2bccaf",
+  "saved_contexts_replayed": 1416,
+  "maximum_context_tokens": 1024,
+  "coverage_aggregates": [
+    {
+      "variant": "fixed",
+      "retriever": "bm25",
+      "Coverage@B1024": 0.6813421524045749
+    },
+    {
+      "variant": "fixed",
+      "retriever": "dense",
+      "Coverage@B1024": 0.49938101013561
+    },
+    {
+      "variant": "fixed",
+      "retriever": "hybrid",
+      "Coverage@B1024": 0.6481433561909691
+    },
+    {
+      "variant": "structure",
+      "retriever": "bm25",
+      "Coverage@B1024": 0.7535329873072742
+    },
+    {
+      "variant": "structure",
+      "retriever": "dense",
+      "Coverage@B1024": 0.6094651906971047
+    },
+    {
+      "variant": "structure",
+      "retriever": "hybrid",
+      "Coverage@B1024": 0.6942109534089691
+    },
+    {
+      "variant": "hierarchy",
+      "retriever": "bm25",
+      "Coverage@B1024": 0.8043804449343929
+    },
+    {
+      "variant": "hierarchy",
+      "retriever": "dense",
+      "Coverage@B1024": 0.6009906144259183
+    },
+    {
+      "variant": "hierarchy",
+      "retriever": "hybrid",
+      "Coverage@B1024": 0.7365838347649013
+    },
+    {
+      "variant": "unrestricted",
+      "retriever": "bm25",
+      "Coverage@B1024": 0.7704821398496471
+    },
+    {
+      "variant": "unrestricted",
+      "retriever": "dense",
+      "Coverage@B1024": 0.5331940042564267
+    },
+    {
+      "variant": "unrestricted",
+      "retriever": "hybrid",
+      "Coverage@B1024": 0.7281092584937149
+    }
+  ],
+  "length_bands": [
+    {
+      "band": "<=510",
+      "documents": 479,
+      "questions": 25,
+      "hybrid_coverage": {
+        "fixed": 0.84,
+        "structure": 0.88,
+        "hierarchy": 0.96,
+        "unrestricted": 0.92
+      }
+    },
+    {
+      "band": "511-1024",
+      "documents": 297,
+      "questions": 37,
+      "hybrid_coverage": {
+        "fixed": 0.6756756756756757,
+        "structure": 0.7027027027027027,
+        "hierarchy": 0.7027027027027027,
+        "unrestricted": 0.7027027027027027
+      }
+    },
+    {
+      "band": "1025-2048",
+      "documents": 226,
+      "questions": 30,
+      "hybrid_coverage": {
+        "fixed": 0.4,
+        "structure": 0.5972297500752786,
+        "hierarchy": 0.5972297500752786,
+        "unrestricted": 0.5972297500752786
+      }
+    },
+    {
+      "band": ">2048",
+      "documents": 142,
+      "questions": 26,
+      "hybrid_coverage": {
+        "fixed": 0.7108044627128597,
+        "structure": 0.6153846153846154,
+        "hierarchy": 0.7307692307692307,
+        "unrestricted": 0.7307692307692307
+      }
+    }
+  ],
+  "paired_hybrid_comparisons": [
+    {
+      "reference": "structure",
+      "difference": 0.0423728813559322,
+      "wins": 9,
+      "losses": 4,
+      "ties": 105,
+      "independent_bootstrap_95pct": [
+        -0.01694915254237288,
+        0.1016949152542373
+      ]
+    },
+    {
+      "reference": "fixed",
+      "difference": 0.08844047857393224,
+      "wins": 17,
+      "losses": 7,
+      "ties": 94,
+      "independent_bootstrap_95pct": [
+        0.012873592961573295,
+        0.16541129368467963
+      ]
+    },
+    {
+      "reference": "unrestricted",
+      "difference": 0.00847457627118644,
+      "wins": 4,
+      "losses": 3,
+      "ties": 111,
+      "independent_bootstrap_95pct": [
+        -0.03389830508474576,
+        0.05084745762711865
+      ]
+    }
+  ],
+  "heading_counts": {
+    "records": 133,
+    "documents": 23,
+    "heading_only": 121,
+    "other_body": 11,
+    "headings_and_only_comments": 1,
+    "heading_body_fits_target": 132,
+    "ablation_preserves_pair": 132
+  },
+  "maximum_selected_rank": {
+    "fixed/bm25": 3171,
+    "fixed/dense": 3220,
+    "fixed/hybrid": 166,
+    "structure/bm25": 5131,
+    "structure/dense": 4342,
+    "structure/hybrid": 178,
+    "hierarchy/bm25": 4130,
+    "hierarchy/dense": 3737,
+    "hierarchy/hybrid": 174,
+    "unrestricted/bm25": 3324,
+    "unrestricted/dense": 3851,
+    "unrestricted/hybrid": 143
+  },
+  "limits": [
+    "No end-to-end encoder/retrieval rerun; no fresh pytest run.",
+    "No independent replay of top-5 or document metrics from Parquet in this environment.",
+    "Independent bootstrap uses Python Random, not the original NumPy RNG; compare interpretation, not bitwise endpoints.",
+    "Recorded token counts checked arithmetically; tokenizer not rerun.",
+    "No independent human judgment of semantic label validity or DOCX visual rendering."
+  ]
+}

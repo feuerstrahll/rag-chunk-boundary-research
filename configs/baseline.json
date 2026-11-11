@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "seed": 2026,
+  "dataset": {
+    "name": "ibm-research/watsonxDocsQA",
+    "revision": "f7da4b6d8a8c4609c49fda06af3bea29b6ef9be4",
+    "documents": 1144,
+    "corpus": "corpus/train-00000-of-00001.parquet",
+    "train_qa": "question_answers/train-00000-of-00001.parquet",
+    "historical_test_qa": "question_answers/test-00000-of-00001.parquet",
+    "corpus_sha256": "fb56d7c847f576d72f32669b01feb47e38788b7e91deeecdcdbcc2b9995fdd6b",
+    "train_qa_sha256": "73c81739e29b2e5fac82accb43d7b3a7f319e047ae56f421dd8d3804f0742bb1",
+    "historical_test_qa_sha256": "bea3bd567eb95b29b3d3e4b185ed6bb0bad114b897ac42c9bac3f4fec054a18a"
+  },
+  "embedding": {
+    "model": "sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
+    "revision": "9c441fc9d77eb051358e49979a385d07a511c3c5",
+    "requested_max_tokens": 512,
+    "device": "cpu",
+    "batch_size": 32
+  },
+  "chunking": {
+    "strategy": "structure",
+    "overlap_tokens": 64
+  },
+  "comparison_fixed": {
+    "candidate_id": "fixed_m480_o20",
+    "max_tokens": 480,
+    "overlap_tokens": 20
+  },
+  "retrieval": {
+    "methods": ["bm25", "dense", "hybrid"],
+    "top_k": [1, 3, 5, 10],
+    "ranking_depth": 100,
+    "fusion_constant": 60,
+    "fusion_depth": 100,
+    "cumulative_context_budget": null
+  },
+  "evaluation": {
+    "evidence_hit_threshold": 0.8
+  },
+  "contamination": {
+    "historical_test_exposed": true,
+    "stage_a_development_split": "train",
+    "independent_holdout_available": false,
+    "confirmatory_evaluation_status": "pending_new_holdout"
+  }
+}

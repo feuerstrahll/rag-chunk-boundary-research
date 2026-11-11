@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "status": "unlabeled_pilot",
+  "seed": 20261022,
+  "corpus_revision": "f7da4b6d8a8c4609c49fda06af3bea29b6ef9be4",
+  "input_sha256": {
+    "corpus": "fb56d7c847f576d72f32669b01feb47e38788b7e91deeecdcdbcc2b9995fdd6b",
+    "qa": "73c81739e29b2e5fac82accb43d7b3a7f319e047ae56f421dd8d3804f0742bb1"
+  },
+  "train_qa_count": 45,
+  "development_document_count": 34,
+  "eligible_document_count": 31,
+  "random_document_ids": [
+    "A11374B50B49477362FA00BBB32A277776F7E8E2",
+    "73F96A06142EE17A6C55E5700580F33250552A00",
+    "9E15D946EDFB82EF911D36032C073CF1736B39DA",
+    "577964B0C132F5EA793054C3FF67417DDA6511D3",
+    "D377DA7CF67645F321593FA8B1536BE2F0753333"
+  ],
+  "diagnostic_document_ids": [
+    "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45",
+    "292D19849E8FBE48869F5E3A50439964563A90D1",
+    "27DB2218237B89F557D3702F4270288E4460E9CB",
+    "15A014C514B00FF78C689585F393E21BAE922DB2"
+  ],
+  "random_rule": "sample 5 eligible train-referenced documents by sorted doc_id and seed; sample 6 adjacent block boundaries uniformly per document without text markers or retrieval outcomes",
+  "diagnostic_rule": "choose 4 remaining train-referenced documents by sorted doc_id with list, code, table, reference markers where available; select 6 boundaries ranked by marker count then block index",
+  "queue_count": 54,
+  "parser": "upstream src/parsers/markdown.py",
+  "builder_sha256": "fba0cd171b53e1744b52f1af799832e5cd3f4051a7b3fb267a4f184b532e0342",
+  "parser_sha256": "d7e86e75166947a6db46b3974e964de913ca1cc9e36c6929dde7c95fdb9138d2",
+  "parser_caveat": "Line-oriented parser normalizes list markers and joins paragraph/code lines; original Markdown is retained in documents.jsonl for verification",
+  "output_sha256": {
+    "documents.jsonl": "07eb7343aba569eedf13e9638bd843790f81567068f0dd7ff2446d8e43784025",
+    "queue.jsonl": "a1d470e0829723391edfcab742b13dd9d0ced9bb2909960e15eec61e293d0d9e",
+    "detector_predictions.jsonl": "ac78667c4be828602c20358673b5330afcecff2e8ac9ea87a0ed7cc53eba2ec4"
+  }
+}

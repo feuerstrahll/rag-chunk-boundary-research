@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "started_at_utc": "2026-10-23T16:38:43Z",
+  "finished_at_utc": "2026-10-23T16:39:02Z",
+  "mode": "stage_a_train",
+  "segmenter": "structure",
+  "segmenter_config": {
+    "strategy": "structure",
+    "overlap_tokens": 64
+  },
+  "smoke": true,
+  "reproducibility_classification": "current_implementation_baseline",
+  "classification_reason": "Current frozen implementation ran successfully; exact historical source patches are unavailable.",
+  "historical_test_exposed": true,
+  "stage_a_development_split": "train",
+  "independent_holdout_available": false,
+  "confirmatory_evaluation_status": "pending_new_holdout",
+  "previously_exposed": false,
+  "source_snapshot_id": "7f2f09d07dbd925fcdcdc6e6c5b564d355fc287aa1e5eccb7da9633648a9cd89",
+  "source_snapshot_git": {
+    "head": "7d986ef68401b475f3cdc33694ac0c8cc7bac630",
+    "dirty": true,
+    "status": [
+      " M pyproject.toml",
+      " M src/evaluation/__init__.py",
+      " M src/retrieval/__init__.py",
+      " M src/retrieval/ranking.py",
+      " M uv.lock",
+      "?? configs/computational_efficiency.yaml",
+      "?? configs/metadata_ablation_v2.yaml",
+      "?? results/report/computational_efficiency.md",
+      "?? scripts/run_computational_efficiency.py",
+      "?? scripts/run_metadata_ablation_v2.py",
+      "?? src/evaluation/efficiency.py",
+      "?? src/metadata_ablation/__init__.py",
+      "?? src/metadata_ablation/chunker.py",
+      "?? src/metadata_ablation/representation.py",
+      "?? tests/test_computational_efficiency.py",
+      "?? tests/test_metadata_ablation_v2.py"
+    ],
+    "selected_tracked_diff_sha256": "5d03928b790f7429c4dcfd765f5ab3dcfa64310d31b47da75ae8d8dcbae63ad4"
+  },
+  "config_path": "C:\\Users\\nasty\\\u0414\u0418\u041f\u041b\u041e\u041c\\article\\configs\\baseline.json",
+  "config_sha256": "3fede841517f941eca010bbaee02013ba43d6fd4664bb02792239a6197cd8d18",
+  "input_sha256": {
+    "corpus": "fb56d7c847f576d72f32669b01feb47e38788b7e91deeecdcdbcc2b9995fdd6b",
+    "train_qa": "73c81739e29b2e5fac82accb43d7b3a7f319e047ae56f421dd8d3804f0742bb1"
+  },
+  "environment": {
+    "python": "3.11.2",
+    "python_executable": "C:\\Users\\nasty\\\u0414\u0418\u041f\u041b\u041e\u041c\\techdoc-chunking-pipeline\\.venv\\Scripts\\python.exe",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "packages": {
+      "datasets": "5.0.1",
+      "numpy": "2.4.6",
+      "orjson": "3.12.0",
+      "pyarrow": "25.0.1",
+      "pydantic": "2.13.5",
+      "sentence-transformers": "6.1.0",
+      "tokenizers": "0.23.2",
+      "torch": "2.14.1",
+      "transformers": "5.18.0"
+    },
+    "network_policy": "offline_local_files_only"
+  },
+  "model": {
+    "model": "sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
+    "revision": "9c441fc9d77eb051358e49979a385d07a511c3c5",
+    "requested_max_tokens": 512,
+    "device": "cpu",
+    "batch_size": 32,
+    "local_snapshot": "C:\\Users\\nasty\\.cache\\huggingface\\hub\\models--sentence-transformers--multi-qa-MiniLM-L6-cos-v1\\snapshots\\9c441fc9d77eb051358e49979a385d07a511c3c5",
+    "encoder_limit": 512,
+    "special_tokens": 2
+  },
+  "budgets": {
+    "max_chunk_length_tokens": 510,
+    "embedding_input_limit_tokens_including_special": 512,
+    "embedding_special_tokens": 2,
+    "cumulative_retrieval_context_budget": null
+  },
+  "retrieval": {
+    "methods": [
+      "bm25",
+      "dense",
+      "hybrid"
+    ],
+    "top_k": [
+      1,
+      3,
+      5,
+      10
+    ],
+    "ranking_depth": 100,
+    "fusion_constant": 60,
+    "fusion_depth": 100,
+    "cumulative_context_budget": null
+  },
+  "artifacts": {
+    "source_snapshot_manifest.json": "cccd66b74ee2b8a2dc7bfb9ca2e83b9d4223e33a99b0a0a119f84631851f6880",
+    "chunks.parquet": "87abd5beb034313c6a4dd40372859eb782bc7f2abf553b098b15ee3e3fc7863e",
+    "retrieval_runs.parquet": "81560883174efe7edb8a53ab4ba04b7e919b10e604dde9f6befddd5bddacd6e3",
+    "index_statistics.json": "51d5903422c00e0dafc91b54c819fac695e9adf1a1ae118325521c5f96e437f1",
+    "execution_cost.json": "530c3417c3dfe1ceb05fd4bc3ed102fd1560e24d2ba722bbbcf83962a4c568fa",
+    "reproducibility_check.json": "45ddba66ed8930f4fbfa0ddbfcf5f5e170fe50ce90fe5ab4d63e541f6b5da40c",
+    "historical_comparison.md": "40bb7cb1d6168fe7c4eae7cba9fbfd0eb5ace4a77c27b4b2c9cb8600d151c0c6"
+  },
+  "command": [
+    "C:\\Users\\nasty\\\u0414\u0418\u041f\u041b\u041e\u041c\\techdoc-chunking-pipeline\\.venv\\Scripts\\python.exe",
+    "scripts/run_stage_a_baseline.py",
+    "--snapshot",
+    "data/intermediate/upstream_snapshot/7f2f09d07dbd925fcdcdc6e6c5b564d355fc287aa1e5eccb7da9633648a9cd89",
+    "--smoke",
+    "--segmenter",
+    "structure",
+    "--run-dir",
+    "results/runs/structure_smoke_20261023_v1"
+  ]
+}

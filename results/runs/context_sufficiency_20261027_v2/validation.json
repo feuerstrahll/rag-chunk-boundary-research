@@ -1,0 +1,20 @@
+{
+  "status": "passed_prepared_inputs_only",
+  "contexts_verified": 386,
+  "coverage_rows_independently_verified": 236,
+  "judge_calls": 0,
+  "judge_reviews": 0,
+  "unit_tests": "11 passed",
+  "ruff": "passed on new script and tests",
+  "unverified": [
+    "live_LLM_endpoint",
+    "Sufficiency_Rate_and_paired_CI",
+    "12_judge_content_reviews"
+  ],
+  "broader_tests": "hierarchy test collection unavailable: pre-existing orjson dependency missing",
+  "supporting_artifact_sha256": {
+    "verify_prepared.py": "b4e4e2ae3e9f66f4c98fce53001fb40d88a637d5fe1f5b674a3630f112c3e5af",
+    "report.md": "b92d2a7328ffadfc6971bdee8a999e786a3ea91d3f71361d81c9c6aa789ccc28",
+    "requirements.txt": "b9129b911df8d28ee33d694fd171f32dd71fadb312187538d1f4aefd5526f63f"
+  }
+}

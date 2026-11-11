@@ -1,0 +1,40 @@
+{
+  "original_75_from_saved_per_question_scores": {
+    "fixed": 0.6591693574788691,
+    "structure": 0.8802656941325335,
+    "delta": 0.22109633665366454,
+    "ci": [
+      0.13781090093583048,
+      0.31031551487139286
+    ]
+  },
+  "step5b_from_per_question": {
+    "EvidenceCoverage@5": {
+      "fixed": 0.8515331866994436,
+      "structure": 0.7796610169491526,
+      "delta": -0.0718721697502911,
+      "ci": [
+        -0.1437443395005822,
+        -0.004075559580799586
+      ]
+    },
+    "EvidenceCoverage@B=1024": {
+      "fixed": 0.6481433561909691,
+      "structure": 0.6942109534089691,
+      "delta": 0.04606759721800004,
+      "ci": [
+        -0.03632028880775287,
+        0.13049469477745626
+      ]
+    }
+  },
+  "train_alignment_audit": {
+    "rows": 45,
+    "statuses": {
+      "partial": 45
+    },
+    "methods": {
+      "token_alignment": 45
+    }
+  }
+}

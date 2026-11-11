@@ -1,0 +1,18 @@
+{
+  "status": "passed_partial_results_only",
+  "observed": 58,
+  "missing": 328,
+  "full_pairs": 4,
+  "content_reviews": 15,
+  "human_reviews": 0,
+  "independent_rates_and_bootstrap_verified": true,
+  "carried_23_judgments_unchanged": true,
+  "input_files_unchanged": 26,
+  "tests": "18 passed",
+  "ruff": "passed",
+  "inferential_status": "no_reliable_method_effect_or_full_population_inference",
+  "supporting_artifact_sha256": {
+    "report.md": "a07ede336f0cda9fd902038fb023166db7cd9a9cbe289c60e8644aa184ddb336",
+    "verify_results.py": "d811310d9854b5fd57ee04fe9a7b2ab6ff19af1e53c5573ffcd46e13730d5c86"
+  }
+}

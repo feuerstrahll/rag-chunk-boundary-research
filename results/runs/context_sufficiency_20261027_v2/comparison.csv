@@ -1,0 +1,5 @@
+cohort,variant,questions,evaluated,sufficient,Sufficiency Rate,EvidenceCoverage@1024,status
+AI-only,fixed,118,0,,,0.6481433561909691,not_evaluated
+AI-only,structure,118,0,,,0.6942109534089691,not_evaluated
+original-gold,fixed,75,0,,,,not_evaluated
+original-gold,structure,75,0,,,,not_evaluated

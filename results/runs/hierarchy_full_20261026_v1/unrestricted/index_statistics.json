@@ -1,0 +1,51 @@
+{
+  "documents": 1144,
+  "questions": 118,
+  "chunk_count": 3859,
+  "indexed_tokens": 1356371,
+  "one_chunk_documents": 462,
+  "chunk_tokens": {
+    "min": 18,
+    "p10": 104.80000000000001,
+    "median": 425.0,
+    "p90": 510.0,
+    "max": 510
+  },
+  "actual_overlap_tokens_sum": 88730,
+  "actual_overlap_tokens_max": 65,
+  "fallback_chunks": 735,
+  "encoder_text_budget": 510,
+  "dense_matrix_bytes": 5927424,
+  "dense_matrix_shape": [
+    3859,
+    384
+  ],
+  "dense_matrix_dtype": "float32",
+  "uncovered_characters": 1814,
+  "uncovered_nonwhitespace_characters": 0,
+  "heading_diagnostic_reasons": {},
+  "stages_seconds": {
+    "model_load_seconds": 0.558106645999942,
+    "segmentation_seconds": 24.35444570999971,
+    "integrity_validation_seconds": 7.719968453000547,
+    "bm25_build_seconds": 0.37558133600032306,
+    "dense_build_including_encoder_validation_seconds": 460.70713762800005,
+    "query_ranking_scoring_and_artifact_io_seconds": 24.31397209500028
+  },
+  "chunker_provenance": {
+    "strategy": "hierarchy_packing",
+    "tokenizer_name": "sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
+    "resolved_tokenizer_revision": "9c441fc9d77eb051358e49979a385d07a511c3c5",
+    "max_tokens": 510,
+    "overlap_tokens": 64,
+    "chunker_config_hash": "abed8a7561b81d7c07bcc1103c66cebe8db2babf3e01b4fb36725717ab4410a5",
+    "target_tokens": 480,
+    "respect_parent_boundary": false,
+    "root_siblings_allowed": true,
+    "algorithm_version": "1"
+  },
+  "pid": 118,
+  "rss_sampling_seconds": 0.1,
+  "peak_process_rss_bytes": 1551155200,
+  "rss_scope": "isolated_variant_process_including_model_and_index_sampled_100ms"
+}

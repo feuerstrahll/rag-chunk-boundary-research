@@ -1,0 +1,47 @@
+{
+  "started_at_utc": "2026-10-27T16:59:48.098597+00:00",
+  "prepared": "/home/nasty/ДИПЛОМ/article/results/runs/context_sufficiency_20261027_v2",
+  "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+  "model": "openai/gpt-4o",
+  "temperature": 0,
+  "seed": 2026,
+  "max_tokens": 400,
+  "response_format": {
+    "type": "json_object"
+  },
+  "provider": {
+    "only": [
+      "openai"
+    ],
+    "allow_fallbacks": false,
+    "require_parameters": true
+  },
+  "minimum_request_interval_seconds": 1.2,
+  "transport_retries": "up_to_5_only_429_or_5xx; fail_on_explicit_zero_limit; no_retry_received_judgments",
+  "input_sha256": {
+    "requests.jsonl": "6a36ea55259a26c9f48ea8d17b7f1679a002bfb3983b8b8ed3a4c2c09f155c9b",
+    "mapping.jsonl": "ac1a9e0d16c27c793574414cf85a4a031cfcbd6cdb2410ebc3b465563e3dd313",
+    "judge_prompt.txt": "37131d2231d581909f3d844d8f34e7d9b5f2ce071d68d0b4d257c812a0bfcc45"
+  },
+  "source_sha256": {
+    "/home/nasty/ДИПЛОМ/article/scripts/run_openrouter_context_sufficiency.py": "57a9469de9f71a1cecd3d36dab34f212cbbaa94c654c3edd2ad118f0355d5fa1",
+    "/home/nasty/ДИПЛОМ/article/scripts/evaluate_context_sufficiency.py": "5733c21f57128f12c0b3dcf2274587bc298489dd9ecd1fe6faffc697d5252a9c"
+  },
+  "python": "3.13.5",
+  "packages": {
+    "python-dotenv": "1.2.4",
+    "numpy": "2.5.4",
+    "pyarrow": "26.0.0",
+    "tokenizers": "0.23.3"
+  },
+  "command": [
+    "article/scripts/run_openrouter_context_sufficiency.py",
+    "--prepared",
+    "article/results/runs/context_sufficiency_20261027_v2",
+    "--output",
+    "article/results/runs/context_sufficiency_openrouter_20261027_v1",
+    "--env-file",
+    "/tmp/openrouter-context-sufficiency.env"
+  ],
+  "credentials": "external temporary file; never saved in artifacts"
+}

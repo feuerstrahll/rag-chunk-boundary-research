@@ -1,0 +1,32 @@
+{
+  "status": "completed_new_exploratory_retrieval",
+  "finished_at_utc": "2026-10-26T23:58:57.833920+00:00",
+  "old_artifacts_unchanged": true,
+  "artifact_sha256": {
+    "development_examples.json": "56c03e0d47ea74b3a8a051f3e9c0aa2be609c72fb01dfc0c066f2af203556a8a",
+    "frozen_config.json": "903a1e290ed8515e1ce8320fe1b646f40aa57e996433a7ed393c3ad3c132c676",
+    "headings/chunks.parquet": "8f90b734586ad4596d25e85b718d59f684ec2463059b9c1081b7a7f9ae015186",
+    "headings/contexts.jsonl": "acf93bec8315c9b76ee980a38277518d66b70e7b7c611fb5bf36a0f47f0b4d03",
+    "headings/heading_diagnostics.jsonl": "425503e3cf8d7eb58194205429fc9cc6610ec4908df0e1ac27e892cb582ec11b",
+    "headings/index_statistics.json": "0aa47a646c261f3346c240cc4ee2a603e4f92f243a6adfd9f2e4a926e943c124",
+    "headings/intro_candidates.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "headings/manifest.json": "772099152951788731fa76cef2fb130353c8f8c2de1bf72d1025cad18e6c8c82",
+    "headings/per_question_metrics.parquet": "1ed536be950064289cb3da7b96cadf7c20db68afe334fba3e8e4c85a4e9be6d1",
+    "headings/preferred_links.jsonl": "20790a2a53876f3b91ea6d39ccfdb4958111c9d38e3ea1237eb11ae3d2a1a8b1",
+    "headings/rankings.parquet": "989a61fc782fcba18bfaa548cfb27a86d1dd4bf4165e8b7174cdec0e1640bf91",
+    "headings/structural_integrity.json": "ac79653821ffe036896fce3b9cf052f250a1b0fce59d0fe1bb5de8478e83c6ee",
+    "headings_intro/chunks.parquet": "8f90b734586ad4596d25e85b718d59f684ec2463059b9c1081b7a7f9ae015186",
+    "headings_intro/contexts.jsonl": "acf93bec8315c9b76ee980a38277518d66b70e7b7c611fb5bf36a0f47f0b4d03",
+    "headings_intro/heading_diagnostics.jsonl": "22a37e8fd70e26f410e1cec5a1a5e8c8c97e9f0af321133bc916a57f1bc0b474",
+    "headings_intro/index_statistics.json": "e186976caae65fb15c2d689814c984e089e33e93146aa63b1b5d0f94e0f69215",
+    "headings_intro/intro_candidates.jsonl": "921f0a186f9ff84a66c4de1d9d5c74276bf264ddcac61d4028dbc40b6bd81707",
+    "headings_intro/manifest.json": "776dbb75e03164438587fc76e8cb0af9592393994145aa437c809b634f219145",
+    "headings_intro/per_question_metrics.parquet": "107d48334f16e3efc7900173286f82108c68dad08c22fc9abff26b31e8db63f5",
+    "headings_intro/preferred_links.jsonl": "2596f954bc4861dcf3cc7f49e22e6e47d6e8f691a8af0b8e449ed3b2e66037b5",
+    "headings_intro/rankings.parquet": "989a61fc782fcba18bfaa548cfb27a86d1dd4bf4165e8b7174cdec0e1640bf91",
+    "headings_intro/structural_integrity.json": "ac79653821ffe036896fce3b9cf052f250a1b0fce59d0fe1bb5de8478e83c6ee",
+    "preflight.json": "f082e2838fa1f77ccdeb5a7e70f88d214a069b7c805a65796cb91bbea3805d46",
+    "requirements.lock.txt": "b7f61a8065fc332147b55346810989381901c511886fee35b9fb0fcc9dbb8e6c",
+    "v1_reuse.json": "ff2c65ece8ae4bddfac6c3f79b72b8858e54c67bd655d4ab18de83afdad58593"
+  }
+}

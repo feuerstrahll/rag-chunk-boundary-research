@@ -1,0 +1,103 @@
+{
+  "documents": 2,
+  "questions": 2,
+  "chunks": 28,
+  "total_chunk_tokens": 6840,
+  "semantic_chunks_jsonl_sha256": "e9ae419d01be68ee7f757fbbd676fb51c0859e4967a2bc3a772c07687fda1706",
+  "integrity": {
+    "chunk_count": 28,
+    "chunks_per_document_mean": 14.0,
+    "chunks_per_document_median": 14.0,
+    "block_char_coverage": 1.0,
+    "split_block_fraction": 0.0,
+    "cross_section_chunk_fraction": 0.0,
+    "fallback_split_fraction": 0.0,
+    "overlap_redundancy_fraction": 0.027337173238812584
+  },
+  "metrics": {
+    "bm25": {
+      "document": {
+        "MRR": 1.0,
+        "Recall@1": 1.0,
+        "nDCG@1": 1.0,
+        "Recall@3": 1.0,
+        "nDCG@3": 1.0,
+        "Recall@5": 1.0,
+        "nDCG@5": 1.0,
+        "Recall@10": 1.0,
+        "nDCG@10": 1.0
+      },
+      "evidence": {
+        "EvidenceCoverage@1": 1.0,
+        "EvidenceHit@1": 1.0,
+        "GoldDocConditionalCoverage@1": 1.0,
+        "EvidenceCoverage@3": 1.0,
+        "EvidenceHit@3": 1.0,
+        "GoldDocConditionalCoverage@3": 1.0,
+        "EvidenceCoverage@5": 1.0,
+        "EvidenceHit@5": 1.0,
+        "GoldDocConditionalCoverage@5": 1.0,
+        "EvidenceCoverage@10": 1.0,
+        "EvidenceHit@10": 1.0,
+        "GoldDocConditionalCoverage@10": 1.0,
+        "MaxSingleChunkCoverage": 1.0
+      }
+    },
+    "dense": {
+      "document": {
+        "MRR": 1.0,
+        "Recall@1": 1.0,
+        "nDCG@1": 1.0,
+        "Recall@3": 1.0,
+        "nDCG@3": 1.0,
+        "Recall@5": 1.0,
+        "nDCG@5": 1.0,
+        "Recall@10": 1.0,
+        "nDCG@10": 1.0
+      },
+      "evidence": {
+        "EvidenceCoverage@1": 1.0,
+        "EvidenceHit@1": 1.0,
+        "GoldDocConditionalCoverage@1": 1.0,
+        "EvidenceCoverage@3": 1.0,
+        "EvidenceHit@3": 1.0,
+        "GoldDocConditionalCoverage@3": 1.0,
+        "EvidenceCoverage@5": 1.0,
+        "EvidenceHit@5": 1.0,
+        "GoldDocConditionalCoverage@5": 1.0,
+        "EvidenceCoverage@10": 1.0,
+        "EvidenceHit@10": 1.0,
+        "GoldDocConditionalCoverage@10": 1.0,
+        "MaxSingleChunkCoverage": 1.0
+      }
+    },
+    "hybrid": {
+      "document": {
+        "MRR": 1.0,
+        "Recall@1": 1.0,
+        "nDCG@1": 1.0,
+        "Recall@3": 1.0,
+        "nDCG@3": 1.0,
+        "Recall@5": 1.0,
+        "nDCG@5": 1.0,
+        "Recall@10": 1.0,
+        "nDCG@10": 1.0
+      },
+      "evidence": {
+        "EvidenceCoverage@1": 1.0,
+        "EvidenceHit@1": 1.0,
+        "GoldDocConditionalCoverage@1": 1.0,
+        "EvidenceCoverage@3": 1.0,
+        "EvidenceHit@3": 1.0,
+        "GoldDocConditionalCoverage@3": 1.0,
+        "EvidenceCoverage@5": 1.0,
+        "EvidenceHit@5": 1.0,
+        "GoldDocConditionalCoverage@5": 1.0,
+        "EvidenceCoverage@10": 1.0,
+        "EvidenceHit@10": 1.0,
+        "GoldDocConditionalCoverage@10": 1.0,
+        "MaxSingleChunkCoverage": 1.0
+      }
+    }
+  }
+}

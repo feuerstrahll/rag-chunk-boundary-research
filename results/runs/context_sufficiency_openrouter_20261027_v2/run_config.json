@@ -1,0 +1,60 @@
+{
+  "started_at_utc": "2026-10-27T17:10:43.251119+00:00",
+  "prepared": "/home/nasty/ДИПЛОМ/article/results/runs/context_sufficiency_20261027_v2",
+  "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+  "model": "openai/gpt-4o",
+  "temperature": 0,
+  "seed": 2026,
+  "max_tokens": 400,
+  "response_format": {
+    "type": "json_object"
+  },
+  "provider": {
+    "only": [
+      "openai"
+    ],
+    "allow_fallbacks": false,
+    "require_parameters": true
+  },
+  "minimum_request_interval_seconds": 3.3,
+  "transport_retries": "up_to_5_429_5xx_or_explicit_in_flight_budget_402_honor_Retry_After; no_retry_received_judgments",
+  "input_sha256": {
+    "requests.jsonl": "6a36ea55259a26c9f48ea8d17b7f1679a002bfb3983b8b8ed3a4c2c09f155c9b",
+    "mapping.jsonl": "ac1a9e0d16c27c793574414cf85a4a031cfcbd6cdb2410ebc3b465563e3dd313",
+    "judge_prompt.txt": "37131d2231d581909f3d844d8f34e7d9b5f2ce071d68d0b4d257c812a0bfcc45"
+  },
+  "source_sha256": {
+    "/home/nasty/ДИПЛОМ/article/scripts/run_openrouter_context_sufficiency.py": "6b628a3ff7f0c96777e6c55a3262c7e6485d19427ab1d04c0f41c6e1b2d16e24",
+    "/home/nasty/ДИПЛОМ/article/scripts/evaluate_context_sufficiency.py": "5733c21f57128f12c0b3dcf2274587bc298489dd9ecd1fe6faffc697d5252a9c"
+  },
+  "python": "3.13.5",
+  "packages": {
+    "python-dotenv": "1.2.4",
+    "numpy": "2.5.4",
+    "pyarrow": "26.0.0",
+    "tokenizers": "0.23.3"
+  },
+  "command": [
+    "article/scripts/run_openrouter_context_sufficiency.py",
+    "--prepared",
+    "article/results/runs/context_sufficiency_20261027_v2",
+    "--output",
+    "article/results/runs/context_sufficiency_openrouter_20261027_v2",
+    "--env-file",
+    "/tmp/openrouter-context-sufficiency.env",
+    "--carry-forward",
+    "article/results/runs/context_sufficiency_openrouter_20261027_v1",
+    "--interval",
+    "3.3"
+  ],
+  "credentials": "external temporary file; never saved in artifacts",
+  "carried_forward": {
+    "run": "/home/nasty/ДИПЛОМ/article/results/runs/context_sufficiency_openrouter_20261027_v1",
+    "judgments": 23,
+    "artifact_sha256": {
+      "run_config.json": "f58d225a9cd8c7ac958c71a38cf94c00fe3c0b65b37567c46dea129328f3f989",
+      "responses.jsonl": "1e4932dd51ecc61b7591d03b65f2b1a8e3e1d691ffc036cf7bcfdbc1448373e7",
+      "judgments.jsonl": "a393f3346a9c658bd0d32f5db35e328e76e9751f2d648d5ee4e55f4786c2838b"
+    }
+  }
+}

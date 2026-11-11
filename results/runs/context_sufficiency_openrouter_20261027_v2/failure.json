@@ -1,0 +1,7 @@
+{
+  "status": "incomplete_no_substitutions",
+  "judged": 58,
+  "error_type": "RuntimeError",
+  "returned_model": "openai/gpt-4o",
+  "finished_at_utc": "2026-10-27T17:22:52.028919+00:00"
+}

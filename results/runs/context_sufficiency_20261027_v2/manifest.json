@@ -1,0 +1,64 @@
+{
+  "status": "prepared_not_evaluated_no_judge",
+  "created_at_utc": "2026-10-27T16:24:27.885587+00:00",
+  "command": [
+    "article/scripts/evaluate_context_sufficiency.py",
+    "prepare",
+    "--output",
+    "article/results/runs/context_sufficiency_20261027_v2"
+  ],
+  "python": "3.13.5",
+  "packages": {
+    "pyarrow": "26.0.0",
+    "numpy": "2.5.4",
+    "tokenizers": "0.23.3"
+  },
+  "input_sha256": {
+    "/home/nasty/ДИПЛОМ/article/results/runs/hierarchy_full_20261026_v1/frozen_config.json": "50814a69ca92a782c5b2a43200039bbb10c2a96ed4acaf90c7d68607efe6cde0",
+    "/home/nasty/ДИПЛОМ/article/results/runs/hierarchy_full_20261026_v1/preflight.json": "6d03292fbd896ff206a670af2c203e594d012d0d0a44886ad61d68b6c3912fe7",
+    "/home/nasty/ДИПЛОМ/article/results/runs/hierarchy_full_20261026_v1/manifest.json": "dc7bbbaea59b24ec7faba07efcfe7219d54a3db47b137a55beb63a08c252632a",
+    "/mnt/c/Users/nasty/.cache/huggingface/hub/models--sentence-transformers--multi-qa-MiniLM-L6-cos-v1/snapshots/9c441fc9d77eb051358e49979a385d07a511c3c5/tokenizer.json": "7fa9272f7ef1ebd1666bb3bfd9d4707660ff0076ca9d1671cd9a9c6e18e03331",
+    "/home/nasty/ДИПЛОМ/techdoc-chunking-pipeline/results/watsonx_docsqa/md_document/canonical_documents.jsonl": "347fe80dc6cb61018e0298ad292bde09dae3a39cacd29ee12b97c0f6c47778b4",
+    "/home/nasty/ДИПЛОМ/techdoc-chunking-pipeline/article/results/stage_a/step5a_ai_approved_freeze_v2/retrieval_gold_ai.jsonl": "824cb306358eabb40275030637cdc039a46ae24e556ad4e166fb7cb86f2bccaf",
+    "/home/nasty/ДИПЛОМ/article/results/runs/hierarchy_full_20261026_v1/fixed/manifest.json": "dbf1ec04e7c870810f24900b21b34ee37180f4b40881034debe6d57b191f98be",
+    "/home/nasty/ДИПЛОМ/article/results/runs/hierarchy_full_20261026_v1/fixed/chunks.parquet": "7ff061f951a7f57074d9612d6e7dae51fa2cc239e29fa498b1a584394ba003d2",
+    "/home/nasty/ДИПЛОМ/article/results/runs/hierarchy_full_20261026_v1/fixed/rankings.parquet": "8c5092c2d5500b11331e5fb94b9698208b9716d71e3e7c4793858351569d292e",
+    "/home/nasty/ДИПЛОМ/article/results/runs/hierarchy_full_20261026_v1/fixed/per_question_metrics.parquet": "7d6a44b98aec5cecab0e473c51a4a228b3d0cff937c2507195d9f940e147984b",
+    "/home/nasty/ДИПЛОМ/article/results/runs/hierarchy_full_20261026_v1/fixed/contexts.jsonl": "7da3d56cb38ab4962e257fc204e1ae90cbadbac0bdf9067c9ebde9bb5d8cc3b3",
+    "/home/nasty/ДИПЛОМ/article/results/runs/hierarchy_full_20261026_v1/structure/manifest.json": "6c98bcaa0ebf5d5c94be3b7f0e715573323560c60ebd27bd3d460abaef52af34",
+    "/home/nasty/ДИПЛОМ/article/results/runs/hierarchy_full_20261026_v1/structure/chunks.parquet": "850283815dc9e255b6aa485cbaf28411994e37f20cb492c4e5fea495ef211be1",
+    "/home/nasty/ДИПЛОМ/article/results/runs/hierarchy_full_20261026_v1/structure/rankings.parquet": "525e7d51ad8d155d4ea7adcb48003ec238cc67ababc63b82dc5b3946fbe2e67f",
+    "/home/nasty/ДИПЛОМ/article/results/runs/hierarchy_full_20261026_v1/structure/per_question_metrics.parquet": "74260f374acfc8ce2b874f06f8a268731e74a2b926b0e987d2f7ef854fb4027a",
+    "/home/nasty/ДИПЛОМ/article/results/runs/hierarchy_full_20261026_v1/structure/contexts.jsonl": "33d22f0650457ec1dfac4640d9a74d289ca8098855febdf7e01668e0396a5655",
+    "/home/nasty/ДИПЛОМ/article/configs/baseline.json": "3fede841517f941eca010bbaee02013ba43d6fd4664bb02792239a6197cd8d18",
+    "/home/nasty/ДИПЛОМ/techdoc-chunking-pipeline/data/raw/watsonx_docsqa/f7da4b6d8a8c4609c49fda06af3bea29b6ef9be4/corpus/train-00000-of-00001.parquet": "fb56d7c847f576d72f32669b01feb47e38788b7e91deeecdcdbcc2b9995fdd6b",
+    "/home/nasty/ДИПЛОМ/techdoc-chunking-pipeline/data/raw/watsonx_docsqa/f7da4b6d8a8c4609c49fda06af3bea29b6ef9be4/question_answers/train-00000-of-00001.parquet": "73c81739e29b2e5fac82accb43d7b3a7f319e047ae56f421dd8d3804f0742bb1",
+    "/home/nasty/ДИПЛОМ/techdoc-chunking-pipeline/data/raw/watsonx_docsqa/f7da4b6d8a8c4609c49fda06af3bea29b6ef9be4/question_answers/test-00000-of-00001.parquet": "bea3bd567eb95b29b3d3e4b185ed6bb0bad114b897ac42c9bac3f4fec054a18a",
+    "/home/nasty/ДИПЛОМ/techdoc-chunking-pipeline/results/watsonx_budget_matched/md_document/fixed_matched/manifest.json": "aa7bd92f95f808e2b0688d6d9d347d844fc86777be4056265329677adfe37c39",
+    "/home/nasty/ДИПЛОМ/techdoc-chunking-pipeline/results/watsonx_budget_matched/md_document/fixed_matched/chunks.jsonl": "80774d1d19a3aa40cce4ffe645eca2c87444767b8fcb3bb171093de6a2c72033",
+    "/home/nasty/ДИПЛОМ/techdoc-chunking-pipeline/results/watsonx_budget_matched/md_document/fixed_matched/rankings.jsonl": "a71103eff19a77baa9a92836b4fc5f13bc5ce7335616c4f092094ed533a30d1e",
+    "/home/nasty/ДИПЛОМ/techdoc-chunking-pipeline/results/watsonx_retrieval/md_document/structure/manifest.json": "81ad8030406bc7dd0d6d9939f5251184dd1d046e51d7bbcf4d8e6ed0445e912c",
+    "/home/nasty/ДИПЛОМ/techdoc-chunking-pipeline/results/watsonx_retrieval/md_document/structure/chunks.jsonl": "fdecd09a5b0e9d2047afe0ae6d667bbd64f7d8eb1872c18bfd58d84c0f9e6d84",
+    "/home/nasty/ДИПЛОМ/techdoc-chunking-pipeline/results/watsonx_retrieval/md_document/structure/rankings.jsonl": "08a571d23769ab74f22f8be9000ba03db4b2ccebd0f5c86bf2681bc90f791029"
+  },
+  "source_sha256": {
+    "/home/nasty/ДИПЛОМ/article/scripts/evaluate_context_sufficiency.py": "5733c21f57128f12c0b3dcf2274587bc298489dd9ecd1fe6faffc697d5252a9c",
+    "/home/nasty/ДИПЛОМ/article/src/article_research/packing_evaluation.py": "c14ddd8ef19d4f95fd473276146dcc51d5ee72487b0cf0767c4f93cfb04cb05f"
+  },
+  "requests": 386,
+  "judge_calls": 0,
+  "independent_judge_reviews": 0,
+  "historical_provenance": "AI run validated against stored hashes; historical gold source patches unavailable; no retrieval rerun",
+  "git_available": false,
+  "source_identity": "content_hashes",
+  "artifact_sha256": {
+    "llm_availability.json": "60e7766b23b8136b45f433164d4322585e19bca56f1f2d94174bd9f8c81f8bd6",
+    "judgments.csv": "ae6161a888e86bbcec9eaf1ea9233591e9dc67f0cf7793ffb514a1fd31949993",
+    "comparison.csv": "e7e646d52c365f161fd286ba24396b997dd298d65c1931962b36b062790b56da",
+    "frozen_config.json": "f93c83ebc4a179370fd89fc2489f2bc7faffce5ef68c75f551863d53783a0c38",
+    "paired_comparison.csv": "1b4119f76d72dfffa97a31b32fd962efc92f766fdb86e375d1eba8d3845676a9",
+    "judge_prompt.txt": "37131d2231d581909f3d844d8f34e7d9b5f2ce071d68d0b4d257c812a0bfcc45",
+    "requests.jsonl": "6a36ea55259a26c9f48ea8d17b7f1679a002bfb3983b8b8ed3a4c2c09f155c9b",
+    "mapping.jsonl": "ac1a9e0d16c27c793574414cf85a4a031cfcbd6cdb2410ebc3b465563e3dd313"
+  }
+}

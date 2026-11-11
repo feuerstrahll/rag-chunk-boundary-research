@@ -1,0 +1,31 @@
+{
+  "status": "post_outcome_exploratory_no_new_indexing",
+  "created_at_utc": "2026-10-26T17:11:11.597243+00:00",
+  "source_run_manifest_sha256": "dc7bbbaea59b24ec7faba07efcfe7219d54a3db47b137a55beb63a08c252632a",
+  "source_script_sha256": "4597b663989456103ee88d97b7bbe49d3f518bffb97159cad52814e2c0bd1bf2",
+  "source_artifact_hashes_verified_before_and_after": true,
+  "frozen_sources_unchanged": true,
+  "encoder_inference_or_indexing": false,
+  "versions": {
+    "transformers": "5.20.2",
+    "tokenizers": "0.23.3",
+    "numpy": "2.5.4",
+    "pyarrow": "26.0.0"
+  },
+  "length_bands": [
+    "<=510",
+    "511-1024",
+    "1025-2048",
+    ">2048"
+  ],
+  "groups_selected_after_primary_results": true,
+  "artifact_sha256": {
+    "aggregate_metrics_presentation.csv": "60e22d6633f1444ef0f7dc9cd9306e2e454715a9908b7a2a5d6e3a9b3f24a2dd",
+    "document_lengths.csv": "aec83ec186d39369a1b37e2d931a73c0013173446f8eaf7ac5ca1e0b774243a6",
+    "heading_cases.jsonl": "f5ca5fce01980cc6ea210ba83fc117ce9ae9ed90a4677d2801db56f72b3b62d5",
+    "length_group_contrasts.csv": "d0adff3877996846d1cbfaf81e9ba18f4881d8b6be12959d86a9049236ba2545",
+    "length_group_metrics.csv": "0b56de67cd14731c49f80f1eb9956b7e5659d8e9ef71b993689dd761ee59cb6c",
+    "report.md": "58b56c5abc4a3a998468e455126849d728ebd491b74a57e9ed70e1d761c78b94",
+    "summary.json": "8331d47e1b3f402b64c06071e57f978ace879b48d4b5fd361b09a6f2cd1e85d2"
+  }
+}

@@ -1,0 +1,5 @@
+cohort,variant,planned_questions,observed_questions,missing_questions,sufficient,partial,insufficient,Sufficiency Rate_observed_only,EvidenceCoverage@1024_same_observed_questions,scope
+AI-only,fixed,118,18,100,12,2,4,0.6666666666666666,0.5,incomplete_unpaired_observed_subset_not_method_effect
+AI-only,structure,118,22,96,13,7,2,0.5909090909090909,0.6363636363636364,incomplete_unpaired_observed_subset_not_method_effect
+original-gold,fixed,75,8,67,1,6,1,0.125,,incomplete_unpaired_observed_subset_not_method_effect
+original-gold,structure,75,10,65,7,3,0,0.7,,incomplete_unpaired_observed_subset_not_method_effect

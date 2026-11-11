@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "final_docx_sha256": "ce8dd50dfeb1caaf80393315a79fab1cdce778133ab1178330fffb7997f0dc9e",
+  "word_package_valid": true,
+  "opens_with_python_docx": true,
+  "table_count": 13,
+  "tables_2_through_13_unchanged": true,
+  "bibliography_24_entries_unchanged": true,
+  "all_27_corrections_present": true,
+  "all_unselected_elements_and_other_package_parts_unchanged": true,
+  "source_hash_checks": 32,
+  "run_manifest_artifact_hash_checks": 96,
+  "visual_rendering": "not performed: Word/LibreOffice unavailable",
+  "limits": "Replay of saved outputs is not a new retrieval/encoder/CPU experiment or human validation"
+}

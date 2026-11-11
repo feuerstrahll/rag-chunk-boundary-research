@@ -1,0 +1,13 @@
+{
+  "status": "post_outcome_exploratory_interpretation_no_method_changes",
+  "created_at_utc": "2026-10-27T00:10:49.596080+00:00",
+  "source_run_manifest_sha256": "e299d4bcf26bfc3b5ddd32c75583f063adf1c139d17b279efcc2fe8e5b7b07dd",
+  "script_sha256": "3958fb66c19d93792d77d27446ba9ad2786161d53d8877b0f091c6453a7566d4",
+  "no_retrieval_or_encoder_inference": true,
+  "source_artifacts_unchanged": true,
+  "new_semantic_labels": 0,
+  "artifact_sha256": {
+    "diagnostics.json": "ca362ce743e3d6d37c9c6c350e24dc7dc25087035aad9f31f7312216e2290e88",
+    "report.md": "f6f197521bae935962eb2abe09313c0312b4458b9852dcde643b89e290d82d2f"
+  }
+}

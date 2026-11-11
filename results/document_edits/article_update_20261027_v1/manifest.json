@@ -1,0 +1,305 @@
+{
+  "created_utc": "2026-10-27T17:47:06.502728+00:00",
+  "target": "article/«Разработка и исследование контекстно-зависимой сегментации длинных документов в RAG-системах».docx",
+  "backup": "article/results/document_edits/article_update_20261027_v1/original.docx",
+  "original_sha256": "2d4a719e95225791e82800c75a7924e099f1a9ae476ed44affcd05ba61a7b906",
+  "scope": "Document synthesis only; no chunking, retrieval, indexing, or LLM inference.",
+  "completed_utc": "2026-10-27T17:52:15.059459+00:00",
+  "updated_sha256": "30455c094df0207f02a161e2bb0499e297ffcfe3742d225b5edc3fbd00aeea81",
+  "script_sha256": "a017aa9fd4d2940b30f40b97c117a2d3e6738a070c737d72fffab659f16e6a58",
+  "sources": [
+    {
+      "path": "article/results/runs/hierarchy_full_20261026_v1/report.md",
+      "sha256": "e2b9030d262078d18b67eadeba586b116b4c455ae993b8ea95eb17c9b2b69ac7"
+    },
+    {
+      "path": "article/results/analyses/hierarchy_posthoc_20261026_v2/report.md",
+      "sha256": "58b56c5abc4a3a998468e455126849d728ebd491b74a57e9ed70e1d761c78b94"
+    },
+    {
+      "path": "article/docs/context_packing_v2_protocol.md",
+      "sha256": "dae08b82be58d50abc487fc9a54e756f4710c1f68b5e959b8f43493e83cbfff9"
+    },
+    {
+      "path": "article/docs/context_sufficiency_protocol.md",
+      "sha256": "7921ab0405b20022259bf884f5e2db276e73365c668d9ff1f91ca2fe7d54da9f"
+    },
+    {
+      "path": "article/results/runs/context_full_20261027_v2/report.md",
+      "sha256": "6ac30eb181c4ab71fcab86074af92b37f8a4ef8ce5765557fe3c8d94bddc409c"
+    },
+    {
+      "path": "article/results/runs/context_full_20261027_v2/summary.json",
+      "sha256": "c4406b5bac5c58d9642586d07fd813e48e7aaa789030733f9c2e3d0249daadd6"
+    },
+    {
+      "path": "article/results/runs/context_full_20261027_v2/aggregate_metrics.csv",
+      "sha256": "1c22524d74dbdde960bd6e65f87facc9df35ebf953d98ce606d96abe6b932472"
+    },
+    {
+      "path": "article/results/runs/context_full_20261027_v2/paired_intervals.csv",
+      "sha256": "967cf0dd43c9caeff77e838992d1149cdf4856133942d3b2d1ec934dc3052015"
+    },
+    {
+      "path": "article/results/analyses/context_v2_interpretation_20261027_v1/report.md",
+      "sha256": "f6f197521bae935962eb2abe09313c0312b4458b9852dcde643b89e290d82d2f"
+    },
+    {
+      "path": "article/results/analyses/context_v2_interpretation_20261027_v1/diagnostics.json",
+      "sha256": "ca362ce743e3d6d37c9c6c350e24dc7dc25087035aad9f31f7312216e2290e88"
+    },
+    {
+      "path": "article/results/analyses/context_sufficiency_partial_20261027_v1/report.md",
+      "sha256": "a07ede336f0cda9fd902038fb023166db7cd9a9cbe289c60e8644aa184ddb336"
+    },
+    {
+      "path": "article/results/analyses/context_sufficiency_partial_20261027_v1/comparison.csv",
+      "sha256": "4eff4adf13784197b460d8237264ea99aa9f15b1a0701b0db7685a36676411b2"
+    },
+    {
+      "path": "article/results/analyses/context_sufficiency_partial_20261027_v1/paired_comparison.csv",
+      "sha256": "81d32d40ef1342eb36aba4ac3d4b28d683cb51dc47cc143db7e1657c0fd5ca1a"
+    },
+    {
+      "path": "article/results/analyses/context_sufficiency_partial_20261027_v1/manual_content_review.csv",
+      "sha256": "7f77b87141fa1640997c91872a46da6ae4161c6ac680a75dd0f300575683a17c"
+    },
+    {
+      "path": "article/results/runs/context_sufficiency_openrouter_20261027_v3/retry_report.md",
+      "sha256": "bcbec21d2c18d6e0a63157251cd539431167cfb825177ae06ab4e09281ae282c"
+    }
+  ],
+  "edited_package_parts": [
+    "word/document.xml"
+  ],
+  "new_tables": [
+    {
+      "headers": [
+        "Retriever",
+        "Hierarchy V1",
+        "V2: заголовки",
+        "V2: заголовки + вводная"
+      ],
+      "rows": [
+        [
+          "BM25",
+          "0,804380",
+          "0,804380",
+          "0,804380"
+        ],
+        [
+          "Dense",
+          "0,600991",
+          "0,600991",
+          "0,600991"
+        ],
+        [
+          "Hybrid RRF",
+          "0,736584",
+          "0,736584",
+          "0,736584"
+        ]
+      ],
+      "widths_twips": [
+        1900,
+        2100,
+        2300,
+        2725
+      ]
+    },
+    {
+      "headers": [
+        "Показатель",
+        "Hierarchy V1",
+        "V2: заголовки",
+        "V2: заголовки + вводная"
+      ],
+      "rows": [
+        [
+          "Число чанков",
+          "4 790",
+          "4 661",
+          "4 661"
+        ],
+        [
+          "Индексируемые токены",
+          "1 337 172",
+          "1 337 363",
+          "1 337 363"
+        ],
+        [
+          "Медиана / максимум, токены",
+          "282 / 510",
+          "297 / 510",
+          "297 / 510"
+        ],
+        [
+          "Overlap, токены",
+          "69 531",
+          "69 722",
+          "69 722"
+        ],
+        [
+          "Fallback-чанки",
+          "735",
+          "735",
+          "735"
+        ],
+        [
+          "Сохранено heading→body",
+          "4 207 / 4 339",
+          "4 339 / 4 339",
+          "4 339 / 4 339"
+        ],
+        [
+          "Сохранено цепочек",
+          "4 075 / 4 207",
+          "4 207 / 4 207",
+          "4 207 / 4 207"
+        ]
+      ],
+      "widths_twips": [
+        3000,
+        1800,
+        1900,
+        2325
+      ]
+    },
+    {
+      "headers": [
+        "Вариант",
+        "Сегментация, с",
+        "BM25, с",
+        "Dense + проверка, с",
+        "Запросы + запись, с",
+        "Peak RSS, MiB"
+      ],
+      "rows": [
+        [
+          "Hierarchy V1",
+          "22,36",
+          "0,39",
+          "465,22",
+          "17,54",
+          "1 502,9"
+        ],
+        [
+          "V2: заголовки",
+          "52,69",
+          "0,91",
+          "742,16",
+          "28,25",
+          "1 393,0"
+        ],
+        [
+          "V2: заголовки + вводная",
+          "60,84",
+          "0,82",
+          "720,03",
+          "30,41",
+          "1 499,3"
+        ]
+      ],
+      "widths_twips": [
+        2200,
+        1150,
+        950,
+        1500,
+        1500,
+        1725
+      ]
+    },
+    {
+      "headers": [
+        "Выборка",
+        "Сегментация",
+        "Оценено / план",
+        "S / P / I",
+        "SR, %",
+        "EC@1024"
+      ],
+      "rows": [
+        [
+          "AI-only",
+          "Fixed 480/20",
+          "18 / 118",
+          "12 / 2 / 4",
+          "66,7",
+          "0,5000"
+        ],
+        [
+          "AI-only",
+          "Structure 510/64",
+          "22 / 118",
+          "13 / 7 / 2",
+          "59,1",
+          "0,6364"
+        ],
+        [
+          "Исходные gold",
+          "Fixed 241/10",
+          "8 / 75",
+          "1 / 6 / 1",
+          "12,5",
+          "н/д"
+        ],
+        [
+          "Исходные gold",
+          "Structure 510/64",
+          "10 / 75",
+          "7 / 3 / 0",
+          "70,0",
+          "н/д"
+        ]
+      ],
+      "widths_twips": [
+        1450,
+        1950,
+        1450,
+        1500,
+        1000,
+        1675
+      ]
+    },
+    {
+      "headers": [
+        "Выборка",
+        "Полных пар",
+        "SR fixed / structure, %",
+        "Разность, п.п.",
+        "Bootstrap-границы, п.п."
+      ],
+      "rows": [
+        [
+          "AI-only",
+          "3",
+          "66,7 / 0,0",
+          "−66,7",
+          "[−100; 0]"
+        ],
+        [
+          "Исходные gold",
+          "1",
+          "0,0 / 100,0",
+          "+100",
+          "[+100; +100]"
+        ]
+      ],
+      "widths_twips": [
+        1550,
+        1150,
+        2300,
+        1600,
+        2425
+      ]
+    }
+  ],
+  "python_docx": "1.2.0",
+  "lxml": [
+    6,
+    1,
+    3,
+    0
+  ],
+  "rendering": "Not performed: no Word/LibreOffice renderer installed; OOXML and independent parser checks performed."
+}

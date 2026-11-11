@@ -1,0 +1,64 @@
+{
+  "documents": 1144,
+  "questions": 118,
+  "chunk_count": 4661,
+  "indexed_tokens": 1337363,
+  "one_chunk_documents": 388,
+  "chunk_tokens": {
+    "min": 9,
+    "p10": 63.0,
+    "median": 297.0,
+    "p90": 510.0,
+    "max": 510
+  },
+  "actual_overlap_tokens_sum": 69722,
+  "actual_overlap_tokens_max": 65,
+  "fallback_chunks": 735,
+  "encoder_text_budget": 510,
+  "dense_matrix_bytes": 7159296,
+  "dense_matrix_shape": [
+    4661,
+    384
+  ],
+  "dense_matrix_dtype": "float32",
+  "uncovered_characters": 4284,
+  "uncovered_nonwhitespace_characters": 0,
+  "heading_diagnostic_reasons": {
+    "preferred_unit_exceeds_encoder_inherited_token_fallback": 263,
+    "empty_subtree_at_document_end": 15,
+    "empty_subtree_before_next_heading": 3
+  },
+  "stages_seconds": {
+    "model_load_seconds": 2.118661417999874,
+    "segmentation_seconds": 52.68749402699996,
+    "integrity_validation_seconds": 16.190598314,
+    "bm25_build_seconds": 0.9093881660000989,
+    "dense_build_including_encoder_validation_seconds": 742.1566722520001,
+    "query_ranking_scoring_and_artifact_io_seconds": 28.24969073200009
+  },
+  "chunker_provenance": {
+    "strategy": "hierarchy_packing",
+    "tokenizer_name": "sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
+    "resolved_tokenizer_revision": "9c441fc9d77eb051358e49979a385d07a511c3c5",
+    "max_tokens": 510,
+    "overlap_tokens": 64,
+    "chunker_config_hash": "95ffacc62279c9d670b53b8c5e9cea26a5951ee4b13674732fd60e75a8a8b885",
+    "target_tokens": 480,
+    "respect_parent_boundary": true,
+    "root_siblings_allowed": true,
+    "algorithm_version": "2",
+    "heading_chains": true,
+    "intro_rule": false,
+    "intro_rule_version": "connection_fields_1",
+    "span_identity_config_hash": "24dffe1301cf6b056acee3d67b6142da99629a2e4e8ac8978ff5cfac60d94753",
+    "chunk_id_policy": "v1_identity_for_equal_canonical_spans_to_preserve_ties"
+  },
+  "pid": 25,
+  "rss_sampling_seconds": 0.1,
+  "preferred_links_by_kind": {
+    "heading": 4339
+  },
+  "intro_candidates_by_decision": {},
+  "peak_process_rss_bytes": 1460649984,
+  "rss_scope": "isolated_variant_process_including_model_and_index_sampled_100ms"
+}

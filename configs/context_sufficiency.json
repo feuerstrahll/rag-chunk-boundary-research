@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "status": "frozen_before_judging_exploratory",
+  "seed": 2026,
+  "ai_only_run": "results/runs/hierarchy_full_20261026_v1",
+  "canonical_documents": "techdoc-chunking-pipeline/results/watsonx_docsqa/md_document/canonical_documents.jsonl",
+  "original_gold_sources": {
+    "fixed": "techdoc-chunking-pipeline/results/watsonx_budget_matched/md_document/fixed_matched",
+    "structure": "techdoc-chunking-pipeline/results/watsonx_retrieval/md_document/structure"
+  },
+  "cohorts": {
+    "AI-only": {"questions": 118, "fixed": "480/20", "structure": "510/64", "coverage": "saved_and_recomputed_on_identical_contexts"},
+    "original-gold": {"questions": 75, "train": 45, "test_previously_exposed": 30, "fixed": "241/10 historical budget-matched", "structure": "510/64 historical", "coverage": "unavailable_on_these_B1024_contexts"}
+  },
+  "retrieval": "saved_hybrid_RRF_only_no_index_or_retrieval_changes",
+  "context_budget": 1024,
+  "tokenizer": "sentence-transformers/multi-qa-MiniLM-L6-cos-v1@9c441fc9d77eb051358e49979a385d07a511c3c5",
+  "context_policy": "existing_rank_order_greedy_full_chunk_skip_nonfitting_no_truncation_repeated_overlap_cost",
+  "serialization": "literal_chunk_text_joined_by_two_newlines_no_metadata_or_document_titles_added",
+  "budget_scope": "retrieval_WordPiece_tokens_no_special_tokens; question_and_judge_instructions_outside_budget; not_judge_native_tokens",
+  "judge": {"model": null, "temperature": 0, "reference_answer": false, "method_name": false, "prompt_version": "1"},
+  "analysis": {"primary": "Sufficiency Rate", "contrast": "structure_minus_fixed", "paired": true, "bootstrap_repetitions": 10000, "seed": 2026, "bootstrap_unit": "gold_document_connected_component", "confidence_level": 0.95, "pool_cohorts": false, "manual_review_cases": 12},
+  "availability_at_preparation": {
+    "status": "no_configured_judge",
+    "llm_environment_variable_names": [],
+    "local_service_ports_checked": [11434, 1234, 8000, 8080],
+    "local_service_result": "connection_refused_outside_sandbox",
+    "direct_API_key_configured": false,
+    "codex_chatgpt_session": "present; not a configured independent temperature=0 inference endpoint",
+    "judgments_fabricated": false
+  }
+}

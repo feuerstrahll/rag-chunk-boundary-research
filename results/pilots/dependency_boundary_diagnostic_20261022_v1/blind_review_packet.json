@@ -1,0 +1,342 @@
+{
+  "status": "content_review_pending",
+  "selection_sha256": {
+    "documents": "07eb7343aba569eedf13e9638bd843790f81567068f0dd7ff2446d8e43784025",
+    "chunks": "25592c94ac555ace98ded57e0ea1e4453722d16f2454ed1da559dd428ee3c346"
+  },
+  "instructions": "Read blocks without boundary coordinates. Mark only context necessary to understand B; a prior procedural action alone is insufficient. Use uncertain if source representation prevents a decision.",
+  "cases": [
+    {
+      "case_id": "boundary_01",
+      "doc_id": "292D19849E8FBE48869F5E3A50439964563A90D1",
+      "blocks": [
+        {
+          "block_id": "292D19849E8FBE48869F5E3A50439964563A90D1:markdown:67",
+          "text": "![The following image shows the Jobs tab.](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/images/gs-notebook-job.png)\\{: width=\"100%\" \\} [Back to the top](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/get-started-analyze.html?context=cdpaas&locale=en#video-preview)"
+        },
+        {
+          "block_id": "292D19849E8FBE48869F5E3A50439964563A90D1:markdown:68",
+          "text": "<!-- </ul> -->"
+        },
+        {
+          "block_id": "292D19849E8FBE48869F5E3A50439964563A90D1:markdown:69",
+          "text": "Next steps ##"
+        },
+        {
+          "block_id": "292D19849E8FBE48869F5E3A50439964563A90D1:markdown:70",
+          "text": "Now you can use this data set for further analysis\\. For example, you or other users can do any of these tasks:"
+        }
+      ],
+      "answer": {
+        "decision": "",
+        "b_block_id": "",
+        "necessary_a": [],
+        "rationale": "",
+        "parser_issue": ""
+      }
+    },
+    {
+      "case_id": "boundary_02",
+      "doc_id": "D377DA7CF67645F321593FA8B1536BE2F0753333",
+      "blocks": [
+        {
+          "block_id": "D377DA7CF67645F321593FA8B1536BE2F0753333:markdown:35",
+          "text": "**In a deployment space** : Click **Add to space > Connection**\\. See [Adding connections to a deployment space](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/ml-space-add-assets.html)\\."
+        },
+        {
+          "block_id": "D377DA7CF67645F321593FA8B1536BE2F0753333:markdown:36",
+          "text": "**In the Platform assets catalog** : Click **New connection**\\. See [Adding platform connections](https://dataplatform.cloud.ibm.com/docs/content/wsj/manage-data/platform-conn.html)\\."
+        },
+        {
+          "block_id": "D377DA7CF67645F321593FA8B1536BE2F0753333:markdown:37",
+          "text": "Next step: Add data assets from the connection ###"
+        },
+        {
+          "block_id": "D377DA7CF67645F321593FA8B1536BE2F0753333:markdown:38",
+          "text": "<!-- <ul> -->"
+        }
+      ],
+      "answer": {
+        "decision": "",
+        "b_block_id": "",
+        "necessary_a": [],
+        "rationale": "",
+        "parser_issue": ""
+      }
+    },
+    {
+      "case_id": "boundary_03",
+      "doc_id": "292D19849E8FBE48869F5E3A50439964563A90D1",
+      "blocks": [
+        {
+          "block_id": "292D19849E8FBE48869F5E3A50439964563A90D1:markdown:36",
+          "text": "-  Tips for completing this tutorial"
+        },
+        {
+          "block_id": "292D19849E8FBE48869F5E3A50439964563A90D1:markdown:37",
+          "text": "\\#\\#\\# Use the video picture-in-picture Tip: Start the video, then as you scroll through the tutorial, the video moves to picture-in-picture mode. Close the video table of contents for the best experience with picture-in-picture. You can use picture-in-picture mode so you can follow the video as you complete the tasks in this tutorial. Click the timestamps for each task to follow along.The following animated image shows how to use the video picture-in-picture and table of contents features: ![How to use picture-in-picture and chapters](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/images/pip-and-chapters.gif)\\{: width=\"560px\" height=\"315px\" data-tearsheet=\"this\"\\} \\#\\#\\# Get help in the community If you need help with this tutorial, you can ask a question or find an answer in the [Cloud Pak for Data Community discussion forum](https://community.ibm.com/community/user/cloudpakfordata/communities/community-home/digestviewer?communitykey=c0c16ff2-10ef-4b50-ae4c-57d769937235)\\{: new\\_window\\}. \\#\\#\\# Set up your browser windows For the optimal experience completing this tutorial, open Cloud Pak for Data in one browser window, and keep this tutorial page open in another browser window to switch easily between the two applications. Consider arranging the two browser windows side-by-side to make it easier to follow along. ![Side-by-side tutorial and UI](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/images/tutorial-side-by-side.png)\\{: width=\"560px\" height=\"315px\" data-tearsheet=\"this\"\\} Tip: If you encounter a guided tour while completing this tutorial in the user interface, click **Maybe later**. [Back to the top](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/get-started-analyze.html?context=cdpaas&locale=en#video-preview)"
+        },
+        {
+          "block_id": "292D19849E8FBE48869F5E3A50439964563A90D1:markdown:38",
+          "text": "<!-- </ul> -->"
+        },
+        {
+          "block_id": "292D19849E8FBE48869F5E3A50439964563A90D1:markdown:39",
+          "text": "<!-- <ul> -->"
+        }
+      ],
+      "answer": {
+        "decision": "",
+        "b_block_id": "",
+        "necessary_a": [],
+        "rationale": "",
+        "parser_issue": ""
+      }
+    },
+    {
+      "case_id": "boundary_04",
+      "doc_id": "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45",
+      "blocks": [
+        {
+          "block_id": "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45:markdown:95",
+          "text": "Delete a Data Refinery flow ###"
+        },
+        {
+          "block_id": "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45:markdown:96",
+          "text": "To delete a Data Refinery flow, go to the project's **Assets** tab, expand **Flows**, click **Data Refinery flow**\\. Select the Data Refinery flow, and then select **Delete** from the overflow menu (![overflow menu](https://dataplatform.cloud.ibm.com/docs/content/wsj/refinery/images/actions.png))\\."
+        },
+        {
+          "block_id": "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45:markdown:97",
+          "text": "Promote a Data Refinery flow to a space ###"
+        },
+        {
+          "block_id": "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45:markdown:98",
+          "text": "Deployment spaces are used to manage a set of related assets in a separate environment from your projects\\. You use a space to prepare data for a deployment job for Watson Machine Learning\\. You can promote Data Refinery flows from multiple projects to a single space\\. Complete the steps in the Data Refinery flow before you promote it because the Data Refinery flow is not editable in a space\\."
+        }
+      ],
+      "answer": {
+        "decision": "",
+        "b_block_id": "",
+        "necessary_a": [],
+        "rationale": "",
+        "parser_issue": ""
+      }
+    },
+    {
+      "case_id": "boundary_05",
+      "doc_id": "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45",
+      "blocks": [
+        {
+          "block_id": "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45:markdown:43",
+          "text": "Rename a Data Refinery flow ###"
+        },
+        {
+          "block_id": "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45:markdown:44",
+          "text": "On the Data Refinery toolbar, open the Info pane ![info icon](https://dataplatform.cloud.ibm.com/docs/content/wsj/refinery/images/info-pane.png)\\. Or open the Flow settings ![settings icon](https://dataplatform.cloud.ibm.com/docs/content/wsj/refinery/images/settings.png) and go to the **General** tab\\."
+        },
+        {
+          "block_id": "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45:markdown:45",
+          "text": "Steps ##"
+        },
+        {
+          "block_id": "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45:markdown:46",
+          "text": "Undo or redo a step ###"
+        }
+      ],
+      "answer": {
+        "decision": "",
+        "b_block_id": "",
+        "necessary_a": [],
+        "rationale": "",
+        "parser_issue": ""
+      }
+    },
+    {
+      "case_id": "boundary_06",
+      "doc_id": "27DB2218237B89F557D3702F4270288E4460E9CB",
+      "blocks": [
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:16",
+          "text": "-  Configure secure communication between services with Service Endpoints\\. See [Private network service endpoints](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/security-network.html#private-network-service-endpoints)\\."
+        },
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:17",
+          "text": "-  Control access at the IP address level\\. See [Allow specific IP addresses](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/security-network.html#allow-specific-ip-addresses)\\."
+        },
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:18",
+          "text": "-  Require personal credentials when creating connections\\. The default setting is shared credentials\\. See [Managing your account settings](https://dataplatform.cloud.ibm.com/docs/content/wsj/admin/account-settings.html#set-the-credentials-for-connections)\\."
+        },
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:19",
+          "text": "<!-- </ul> -->"
+        }
+      ],
+      "answer": {
+        "decision": "",
+        "b_block_id": "",
+        "necessary_a": [],
+        "rationale": "",
+        "parser_issue": ""
+      }
+    },
+    {
+      "case_id": "boundary_07",
+      "doc_id": "27DB2218237B89F557D3702F4270288E4460E9CB",
+      "blocks": [
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:6",
+          "text": "| Task                                                              | Location                                              | Required Role                                                    | Description                                                                                                                                                                                  | | ----------------------------------------------------------------- | ----------------------------------------------------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | | [Set up the IBM Cloud account](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/setup-account.html)                                  | IBM Cloud                                             | Account Owner                                                    | Set up a paid account\\.                                                                                                                                                                      | | [Manage users and access](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/setup-access.html)                                       | IBM Cloud                                             | Administrator                                                    | Invite users to join the account, create user access groups, and assign roles or access groups to users to provide access\\.                                                                  | | [Set up IBM Cloud Object Storage for use with IBM watsonx](https://dataplatform.cloud.ibm.com/docs/content/wsj/console/wdp_admin_cos.html)      | IBM Cloud and IBM watsonx                             | Administrator                                                    | Create a test project to initialize IBM Cloud Object Storage and set the location to Global in each user's profile\\.                                                                         | | [Set up the Watson Studio and Watson Machine Learning services](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/set-up-ws.html) | IBM Cloud and IBM watsonx                             | Administrator                                                    | Upgrade to a paid plan\\.                                                                                                                                                                     | | [Create the Platform assets catalog](https://dataplatform.cloud.ibm.com/docs/content/wsj/catalog/platform-assets.html)                            | IBM watsonx                                           | Administrator or Manager role for the Cloud Pak for Data service | Add connections to the platform assets catalog for use by collaborators\\.                                                                                                                    | | [Set up watsonx\\.governance](https://dataplatform.cloud.ibm.com/docs/content/wsj/model/wos-setup-wos.html)          | IBM Cloud and IBM watsonx                             | Administrator or Editor                                          | Create access policies and assign roles to users\\.                                                                                                                                           | | [Configure firewall access](https://dataplatform.cloud.ibm.com/docs/content/wsj/admin/firewall_ovrvw.html) (if necessary)                      | IBM watsonx and cloud provider firewall configuration | Administrator                                                    | Configure inbound access through a firewall\\.                                                                                                                                                | | Optional\\. [Configure security mechanisms](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/security-overview.html)                      | IBM Cloud                                             | Administrator                                                    | IBM watsonx has five security levels to ensure that data, application endpoints, and identity are protected\\. For a list of common security mechanisms, see [Common security mechanisms](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/setup-platform.html?context=cdpaas&locale=en#security)\\. | | Optional\\. [Connect to data behind a firewall](https://dataplatform.cloud.ibm.com/docs/content/wsj/manage-data/securingconn.html)                  | IBM Cloud                                             | Administrator                                                    | Securely connect to databases that are hosted behind a firewall\\.                                                                                                                            | | Optional\\. [Configure integrations with other cloud platforms](https://dataplatform.cloud.ibm.com/docs/content/wsj/admin/int-cloud.html)  | IBM Cloud and IBM watsonx                             | Administrator                                                    | Connect to services on other cloud platforms\\.                                                                                                                                               |"
+        },
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:7",
+          "text": "<!-- </table \"\"> -->"
+        },
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:8",
+          "text": "Common security mechanisms ##"
+        },
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:9",
+          "text": "As an IBM Cloud account owner or administrator, you set up security for the account by providing single sign\\-on, IAM role\\-based access control, secure communication, and other security constraints\\."
+        }
+      ],
+      "answer": {
+        "decision": "",
+        "b_block_id": "",
+        "necessary_a": [],
+        "rationale": "",
+        "parser_issue": ""
+      }
+    },
+    {
+      "case_id": "boundary_08",
+      "doc_id": "D377DA7CF67645F321593FA8B1536BE2F0753333",
+      "blocks": [
+        {
+          "block_id": "D377DA7CF67645F321593FA8B1536BE2F0753333:markdown:31",
+          "text": "<!-- </ul> -->"
+        },
+        {
+          "block_id": "D377DA7CF67645F321593FA8B1536BE2F0753333:markdown:32",
+          "text": "For **Private connectivity**, to connect to a database that is not externalized to the internet (for example, behind a firewall), you must set up a [secure connection](https://dataplatform.cloud.ibm.com/docs/content/wsj/manage-data/securingconn.html)\\."
+        },
+        {
+          "block_id": "D377DA7CF67645F321593FA8B1536BE2F0753333:markdown:33",
+          "text": "Choose the method for creating a connection based on where you are in the platform ###"
+        },
+        {
+          "block_id": "D377DA7CF67645F321593FA8B1536BE2F0753333:markdown:34",
+          "text": "**In a project** : Click **Assets > New asset > Connect to a data source**\\. See [Adding a connection to a project](https://dataplatform.cloud.ibm.com/docs/content/wsj/manage-data/create-conn.html)\\."
+        }
+      ],
+      "answer": {
+        "decision": "",
+        "b_block_id": "",
+        "necessary_a": [],
+        "rationale": "",
+        "parser_issue": ""
+      }
+    },
+    {
+      "case_id": "boundary_09",
+      "doc_id": "27DB2218237B89F557D3702F4270288E4460E9CB",
+      "blocks": [
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:5",
+          "text": "Table 1\\. Configuration steps for IBM watsonx"
+        },
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:6",
+          "text": "| Task                                                              | Location                                              | Required Role                                                    | Description                                                                                                                                                                                  | | ----------------------------------------------------------------- | ----------------------------------------------------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | | [Set up the IBM Cloud account](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/setup-account.html)                                  | IBM Cloud                                             | Account Owner                                                    | Set up a paid account\\.                                                                                                                                                                      | | [Manage users and access](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/setup-access.html)                                       | IBM Cloud                                             | Administrator                                                    | Invite users to join the account, create user access groups, and assign roles or access groups to users to provide access\\.                                                                  | | [Set up IBM Cloud Object Storage for use with IBM watsonx](https://dataplatform.cloud.ibm.com/docs/content/wsj/console/wdp_admin_cos.html)      | IBM Cloud and IBM watsonx                             | Administrator                                                    | Create a test project to initialize IBM Cloud Object Storage and set the location to Global in each user's profile\\.                                                                         | | [Set up the Watson Studio and Watson Machine Learning services](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/set-up-ws.html) | IBM Cloud and IBM watsonx                             | Administrator                                                    | Upgrade to a paid plan\\.                                                                                                                                                                     | | [Create the Platform assets catalog](https://dataplatform.cloud.ibm.com/docs/content/wsj/catalog/platform-assets.html)                            | IBM watsonx                                           | Administrator or Manager role for the Cloud Pak for Data service | Add connections to the platform assets catalog for use by collaborators\\.                                                                                                                    | | [Set up watsonx\\.governance](https://dataplatform.cloud.ibm.com/docs/content/wsj/model/wos-setup-wos.html)          | IBM Cloud and IBM watsonx                             | Administrator or Editor                                          | Create access policies and assign roles to users\\.                                                                                                                                           | | [Configure firewall access](https://dataplatform.cloud.ibm.com/docs/content/wsj/admin/firewall_ovrvw.html) (if necessary)                      | IBM watsonx and cloud provider firewall configuration | Administrator                                                    | Configure inbound access through a firewall\\.                                                                                                                                                | | Optional\\. [Configure security mechanisms](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/security-overview.html)                      | IBM Cloud                                             | Administrator                                                    | IBM watsonx has five security levels to ensure that data, application endpoints, and identity are protected\\. For a list of common security mechanisms, see [Common security mechanisms](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/setup-platform.html?context=cdpaas&locale=en#security)\\. | | Optional\\. [Connect to data behind a firewall](https://dataplatform.cloud.ibm.com/docs/content/wsj/manage-data/securingconn.html)                  | IBM Cloud                                             | Administrator                                                    | Securely connect to databases that are hosted behind a firewall\\.                                                                                                                            | | Optional\\. [Configure integrations with other cloud platforms](https://dataplatform.cloud.ibm.com/docs/content/wsj/admin/int-cloud.html)  | IBM Cloud and IBM watsonx                             | Administrator                                                    | Connect to services on other cloud platforms\\.                                                                                                                                               |"
+        },
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:7",
+          "text": "<!-- </table \"\"> -->"
+        }
+      ],
+      "answer": {
+        "decision": "",
+        "b_block_id": "",
+        "necessary_a": [],
+        "rationale": "",
+        "parser_issue": ""
+      }
+    },
+    {
+      "case_id": "boundary_10",
+      "doc_id": "292D19849E8FBE48869F5E3A50439964563A90D1",
+      "blocks": [
+        {
+          "block_id": "292D19849E8FBE48869F5E3A50439964563A90D1:markdown:36",
+          "text": "-  Tips for completing this tutorial"
+        },
+        {
+          "block_id": "292D19849E8FBE48869F5E3A50439964563A90D1:markdown:37",
+          "text": "\\#\\#\\# Use the video picture-in-picture Tip: Start the video, then as you scroll through the tutorial, the video moves to picture-in-picture mode. Close the video table of contents for the best experience with picture-in-picture. You can use picture-in-picture mode so you can follow the video as you complete the tasks in this tutorial. Click the timestamps for each task to follow along.The following animated image shows how to use the video picture-in-picture and table of contents features: ![How to use picture-in-picture and chapters](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/images/pip-and-chapters.gif)\\{: width=\"560px\" height=\"315px\" data-tearsheet=\"this\"\\} \\#\\#\\# Get help in the community If you need help with this tutorial, you can ask a question or find an answer in the [Cloud Pak for Data Community discussion forum](https://community.ibm.com/community/user/cloudpakfordata/communities/community-home/digestviewer?communitykey=c0c16ff2-10ef-4b50-ae4c-57d769937235)\\{: new\\_window\\}. \\#\\#\\# Set up your browser windows For the optimal experience completing this tutorial, open Cloud Pak for Data in one browser window, and keep this tutorial page open in another browser window to switch easily between the two applications. Consider arranging the two browser windows side-by-side to make it easier to follow along. ![Side-by-side tutorial and UI](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/images/tutorial-side-by-side.png)\\{: width=\"560px\" height=\"315px\" data-tearsheet=\"this\"\\} Tip: If you encounter a guided tour while completing this tutorial in the user interface, click **Maybe later**. [Back to the top](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/get-started-analyze.html?context=cdpaas&locale=en#video-preview)"
+        },
+        {
+          "block_id": "292D19849E8FBE48869F5E3A50439964563A90D1:markdown:38",
+          "text": "<!-- </ul> -->"
+        }
+      ],
+      "answer": {
+        "decision": "",
+        "b_block_id": "",
+        "necessary_a": [],
+        "rationale": "",
+        "parser_issue": ""
+      }
+    },
+    {
+      "case_id": "boundary_11",
+      "doc_id": "577964B0C132F5EA793054C3FF67417DDA6511D3",
+      "blocks": [
+        {
+          "block_id": "577964B0C132F5EA793054C3FF67417DDA6511D3:markdown:22",
+          "text": "<!-- <table> -->"
+        },
+        {
+          "block_id": "577964B0C132F5EA793054C3FF67417DDA6511D3:markdown:23",
+          "text": "| Sample name                                    | Framework                 | Techniques demonstrated                                                                                                                                                                                                                            | | ---------------------------------------------- | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | | [Use AutoAI and Lale to predict credit risk](https://dataplatform.cloud.ibm.com/exchange/public/entry/view/8bddf7f7e5d004a009c643750b16d0c0) | Hybrid (AutoAI) with Lale | Work with Watson Machine Learning experiments to train AutoAI models  <br>Compare trained models quality and select the best one for further refinement  <br>Refine the best model and test new variations  <br>Deploy and score the trained model | | [Use AutoAI to predict credit risk](https://dataplatform.cloud.ibm.com/exchange/public/entry/view/029d77a73d72a4134c81383d6f103330)          | Hybrid (AutoAI)           | Work with Watson Machine Learning experiments to train AutoAI models  <br>Compare trained models quality and select the best one for further refinement  <br>Refine the best model and test new variations  <br>Deploy and score the trained model |"
+        },
+        {
+          "block_id": "577964B0C132F5EA793054C3FF67417DDA6511D3:markdown:24",
+          "text": "<!-- </table \"\"> -->"
+        }
+      ],
+      "answer": {
+        "decision": "",
+        "b_block_id": "",
+        "necessary_a": [],
+        "rationale": "",
+        "parser_issue": ""
+      }
+    },
+    {
+      "case_id": "boundary_12",
+      "doc_id": "27DB2218237B89F557D3702F4270288E4460E9CB",
+      "blocks": [
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:5",
+          "text": "Table 1\\. Configuration steps for IBM watsonx"
+        },
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:6",
+          "text": "| Task                                                              | Location                                              | Required Role                                                    | Description                                                                                                                                                                                  | | ----------------------------------------------------------------- | ----------------------------------------------------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | | [Set up the IBM Cloud account](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/setup-account.html)                                  | IBM Cloud                                             | Account Owner                                                    | Set up a paid account\\.                                                                                                                                                                      | | [Manage users and access](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/setup-access.html)                                       | IBM Cloud                                             | Administrator                                                    | Invite users to join the account, create user access groups, and assign roles or access groups to users to provide access\\.                                                                  | | [Set up IBM Cloud Object Storage for use with IBM watsonx](https://dataplatform.cloud.ibm.com/docs/content/wsj/console/wdp_admin_cos.html)      | IBM Cloud and IBM watsonx                             | Administrator                                                    | Create a test project to initialize IBM Cloud Object Storage and set the location to Global in each user's profile\\.                                                                         | | [Set up the Watson Studio and Watson Machine Learning services](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/set-up-ws.html) | IBM Cloud and IBM watsonx                             | Administrator                                                    | Upgrade to a paid plan\\.                                                                                                                                                                     | | [Create the Platform assets catalog](https://dataplatform.cloud.ibm.com/docs/content/wsj/catalog/platform-assets.html)                            | IBM watsonx                                           | Administrator or Manager role for the Cloud Pak for Data service | Add connections to the platform assets catalog for use by collaborators\\.                                                                                                                    | | [Set up watsonx\\.governance](https://dataplatform.cloud.ibm.com/docs/content/wsj/model/wos-setup-wos.html)          | IBM Cloud and IBM watsonx                             | Administrator or Editor                                          | Create access policies and assign roles to users\\.                                                                                                                                           | | [Configure firewall access](https://dataplatform.cloud.ibm.com/docs/content/wsj/admin/firewall_ovrvw.html) (if necessary)                      | IBM watsonx and cloud provider firewall configuration | Administrator                                                    | Configure inbound access through a firewall\\.                                                                                                                                                | | Optional\\. [Configure security mechanisms](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/security-overview.html)                      | IBM Cloud                                             | Administrator                                                    | IBM watsonx has five security levels to ensure that data, application endpoints, and identity are protected\\. For a list of common security mechanisms, see [Common security mechanisms](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/setup-platform.html?context=cdpaas&locale=en#security)\\. | | Optional\\. [Connect to data behind a firewall](https://dataplatform.cloud.ibm.com/docs/content/wsj/manage-data/securingconn.html)                  | IBM Cloud                                             | Administrator                                                    | Securely connect to databases that are hosted behind a firewall\\.                                                                                                                            | | Optional\\. [Configure integrations with other cloud platforms](https://dataplatform.cloud.ibm.com/docs/content/wsj/admin/int-cloud.html)  | IBM Cloud and IBM watsonx                             | Administrator                                                    | Connect to services on other cloud platforms\\.                                                                                                                                               |"
+        },
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:7",
+          "text": "<!-- </table \"\"> -->"
+        }
+      ],
+      "answer": {
+        "decision": "",
+        "b_block_id": "",
+        "necessary_a": [],
+        "rationale": "",
+        "parser_issue": ""
+      }
+    }
+  ]
+}

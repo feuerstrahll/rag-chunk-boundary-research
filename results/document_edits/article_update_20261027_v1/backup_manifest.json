@@ -1,0 +1,7 @@
+{
+  "created_utc": "2026-10-27T17:47:06.502728+00:00",
+  "target": "article/«Разработка и исследование контекстно-зависимой сегментации длинных документов в RAG-системах».docx",
+  "backup": "article/results/document_edits/article_update_20261027_v1/original.docx",
+  "original_sha256": "2d4a719e95225791e82800c75a7924e099f1a9ae476ed44affcd05ba61a7b906",
+  "scope": "Document synthesis only; no chunking, retrieval, indexing, or LLM inference."
+}

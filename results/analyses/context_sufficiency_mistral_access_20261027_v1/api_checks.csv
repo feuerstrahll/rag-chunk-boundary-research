@@ -1,0 +1,4 @@
+run,model,transport_attempts,valid_judgments,http_status
+context_sufficiency_mistral_20261027_v1,mistral-large-latest,1,0,403
+context_sufficiency_mistral_20261027_v2,mistral-medium-2604,6,0,429
+context_sufficiency_mistral_small_20261027_v1,mistral-small-2603,6,0,429

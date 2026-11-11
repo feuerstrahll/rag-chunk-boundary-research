@@ -1,0 +1,47 @@
+{
+  "status": "frozen_before_first_judgment",
+  "started_at_utc": "2026-10-27T16:38:02.847952+00:00",
+  "prepared": "/home/nasty/ДИПЛОМ/article/results/runs/context_sufficiency_20261027_v2",
+  "prepared_manifest_sha256": "27ceff772c957120280e158a39f618844d32e572382d404d16afba158e4bf1b1",
+  "input_sha256": {
+    "requests.jsonl": "6a36ea55259a26c9f48ea8d17b7f1679a002bfb3983b8b8ed3a4c2c09f155c9b",
+    "mapping.jsonl": "ac1a9e0d16c27c793574414cf85a4a031cfcbd6cdb2410ebc3b465563e3dd313",
+    "judge_prompt.txt": "37131d2231d581909f3d844d8f34e7d9b5f2ce071d68d0b4d257c812a0bfcc45"
+  },
+  "source_sha256": {
+    "/home/nasty/ДИПЛОМ/article/scripts/run_mistral_context_sufficiency.py": "c346709dd8be95fc80b87374e7a8f98f63da80868b48c37f53f43bc04c119e0b",
+    "/home/nasty/ДИПЛОМ/article/scripts/evaluate_context_sufficiency.py": "5733c21f57128f12c0b3dcf2274587bc298489dd9ecd1fe6faffc697d5252a9c"
+  },
+  "sdk": "mistralai",
+  "endpoint": "https://api.mistral.ai/v1/chat/completions",
+  "requested_model": "mistral-medium-2604",
+  "temperature": 0,
+  "random_seed": 2026,
+  "max_tokens": 400,
+  "response_format": {
+    "type": "json_object"
+  },
+  "minimum_request_interval_seconds": 1.2,
+  "sdk_retries": "disabled",
+  "transport_retries": "up_to_5_only_HTTP_429_or_5xx; no retry of received judgments",
+  "python": "3.13.5",
+  "command": [
+    "article/scripts/run_mistral_context_sufficiency.py",
+    "--prepared",
+    "article/results/runs/context_sufficiency_20261027_v2",
+    "--output",
+    "article/results/runs/context_sufficiency_mistral_20261027_v2",
+    "--env-file",
+    "/tmp/mistral-context-sufficiency.env",
+    "--model",
+    "mistral-medium-2604"
+  ],
+  "packages": {
+    "mistralai": "3.5.0",
+    "python-dotenv": "1.2.4",
+    "pyarrow": "26.0.0",
+    "numpy": "2.5.4",
+    "tokenizers": "0.23.3"
+  },
+  "credentials": "MISTRAL_API_KEY loaded from external temporary file; never saved in artifacts"
+}

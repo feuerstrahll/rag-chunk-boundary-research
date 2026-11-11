@@ -1,0 +1,14 @@
+{
+  "status": "no_configured_judge",
+  "llm_environment_variable_names": [],
+  "local_service_ports_checked": [
+    11434,
+    1234,
+    8000,
+    8080
+  ],
+  "local_service_result": "connection_refused_outside_sandbox",
+  "direct_API_key_configured": false,
+  "codex_chatgpt_session": "present; not a configured independent temperature=0 inference endpoint",
+  "judgments_fabricated": false
+}

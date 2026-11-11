@@ -1,0 +1,47 @@
+{
+  "documents": 1144,
+  "questions": 118,
+  "chunk_count": 6007,
+  "indexed_tokens": 1316605,
+  "one_chunk_documents": 401,
+  "chunk_tokens": {
+    "min": 3,
+    "p10": 30.0,
+    "median": 165.0,
+    "p90": 503.0,
+    "max": 510
+  },
+  "actual_overlap_tokens_sum": 48964,
+  "actual_overlap_tokens_max": 65,
+  "fallback_chunks": 735,
+  "encoder_text_budget": 510,
+  "dense_matrix_bytes": 9226752,
+  "dense_matrix_shape": [
+    6007,
+    384
+  ],
+  "dense_matrix_dtype": "float32",
+  "uncovered_characters": 7848,
+  "uncovered_nonwhitespace_characters": 0,
+  "heading_diagnostic_reasons": {},
+  "stages_seconds": {
+    "model_load_seconds": 0.7696337079996738,
+    "segmentation_seconds": 24.242335511999045,
+    "integrity_validation_seconds": 7.72703983700012,
+    "bm25_build_seconds": 0.39524522600004275,
+    "dense_build_including_encoder_validation_seconds": 643.4681970830006,
+    "query_ranking_scoring_and_artifact_io_seconds": 19.2796252499993
+  },
+  "chunker_provenance": {
+    "strategy": "structure",
+    "tokenizer_name": "sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
+    "resolved_tokenizer_revision": "9c441fc9d77eb051358e49979a385d07a511c3c5",
+    "max_tokens": 510,
+    "overlap_tokens": 64,
+    "chunker_config_hash": "0d83135883d1fdfcc009463397f42b0324bf06ce147ed20565aabfa0d0d6d309"
+  },
+  "pid": 54,
+  "rss_sampling_seconds": 0.1,
+  "peak_process_rss_bytes": 1515212800,
+  "rss_scope": "isolated_variant_process_including_model_and_index_sampled_100ms"
+}

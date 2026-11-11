@@ -1,0 +1,25 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+WARNING: The directory '/home/nasty/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights:  23%|██▎       | 24/103 [00:00<00:00, 235.76it/s]Loading weights:  47%|████▋     | 48/103 [00:00<00:00, 206.32it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 358.83it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (545 > 512). Running this sequence through the model will result in indexing errors
+The `tokenize` method is deprecated, please use `preprocess` instead.
+headings: index built; 4661 chunks; budget=510
+headings: 20/118 questions
+headings: 40/118 questions
+headings: 60/118 questions
+headings: 80/118 questions
+headings: 100/118 questions
+headings: 118/118 questions
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights:  32%|███▏      | 33/103 [00:00<00:00, 298.57it/s]Loading weights:  61%|██████    | 63/103 [00:00<00:00, 262.43it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 391.96it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (545 > 512). Running this sequence through the model will result in indexing errors
+The `tokenize` method is deprecated, please use `preprocess` instead.
+headings_intro: index built; 4661 chunks; budget=510
+headings_intro: 20/118 questions
+headings_intro: 40/118 questions
+headings_intro: 60/118 questions
+headings_intro: 80/118 questions
+headings_intro: 100/118 questions
+headings_intro: 118/118 questions
+{"output": "/home/nasty/\u0414\u0418\u041f\u041b\u041e\u041c/article/results/runs/context_smoke_20261027_v2", "status": "retrieval_completed", "smoke": false}

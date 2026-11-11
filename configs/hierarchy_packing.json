@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "status": "frozen_before_retrieval_exploratory_exposed_ai_labels",
+  "seed": 2026,
+  "dataset": {
+    "name": "ibm-research/watsonxDocsQA",
+    "revision": "f7da4b6d8a8c4609c49fda06af3bea29b6ef9be4",
+    "documents": 1144,
+    "representation": "md_document",
+    "corpus": "../techdoc-chunking-pipeline/data/raw/watsonx_docsqa/f7da4b6d8a8c4609c49fda06af3bea29b6ef9be4/corpus/train-00000-of-00001.parquet",
+    "corpus_sha256": "fb56d7c847f576d72f32669b01feb47e38788b7e91deeecdcdbcc2b9995fdd6b"
+  },
+  "gold": {
+    "path": "../techdoc-chunking-pipeline/article/results/stage_a/step5a_ai_approved_freeze_v2/retrieval_gold_ai.jsonl",
+    "sha256": "824cb306358eabb40275030637cdc039a46ae24e556ad4e166fb7cb86f2bccaf",
+    "questions": 118,
+    "spans": 147,
+    "previously_exposed": true,
+    "human_adjudicated": false,
+    "label_provenance": "AI-only"
+  },
+  "snapshot": "data/intermediate/upstream_snapshot/7f2f09d07dbd925fcdcdc6e6c5b564d355fc287aa1e5eccb7da9633648a9cd89",
+  "model": {
+    "name": "sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
+    "revision": "9c441fc9d77eb051358e49979a385d07a511c3c5",
+    "local_snapshot": "/mnt/c/Users/nasty/.cache/huggingface/hub/models--sentence-transformers--multi-qa-MiniLM-L6-cos-v1/snapshots/9c441fc9d77eb051358e49979a385d07a511c3c5",
+    "device": "cpu",
+    "batch_size": 32,
+    "requested_max_tokens": 512,
+    "cpu_threads": 4
+  },
+  "variants": {
+    "fixed": {"max_tokens": 480, "overlap_tokens": 20},
+    "structure": {"overlap_tokens": 64},
+    "hierarchy": {"target_tokens": 480, "overlap_tokens": 64, "respect_parent_boundary": true},
+    "unrestricted": {"target_tokens": 480, "overlap_tokens": 64, "respect_parent_boundary": false}
+  },
+  "algorithm": {
+    "version": "1",
+    "root_siblings_allowed": true,
+    "section_identity": "heading_block_position",
+    "parent": "nearest_active_preceding_heading_of_lower_level",
+    "heading_binding": "same_region_whole_heading_run_and_body_if_fits_encoder_else_inherited_token_fallback",
+    "new_thresholds_or_parameter_search": false
+  },
+  "retrieval": {"methods": ["bm25", "dense", "hybrid"], "fusion_constant": 60, "fusion_depth": 100},
+  "evaluation": {
+    "primary_endpoint": "EvidenceCoverage@B=1024",
+    "primary_method": "hybrid",
+    "primary_contrast": "hierarchy_minus_structure",
+    "context_budget": 1024,
+    "top_k": 5,
+    "evidence_hit_threshold": 0.8,
+    "context_policy": "rank_order_greedy_full_chunk_skip_nonfitting_no_truncation_repeated_overlap_cost",
+    "bootstrap_repetitions": 10000,
+    "bootstrap_seed": 2026,
+    "bootstrap_unit": "gold_document_connected_component",
+    "confidence_level": 0.95,
+    "multiplicity": "descriptive_unadjusted"
+  },
+  "cost": {"isolated_process_per_variant": true, "rss_sample_seconds": 0.1, "dense_size": "matrix_nbytes_not_full_index"}
+}

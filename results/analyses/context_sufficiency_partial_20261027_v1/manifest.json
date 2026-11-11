@@ -1,0 +1,42 @@
+{
+  "status": "completed_partial_at_user_request",
+  "command": [
+    "article/scripts/summarize_partial_context_sufficiency.py",
+    "--run",
+    "article/results/runs/context_sufficiency_openrouter_20261027_v2",
+    "--prepared",
+    "article/results/runs/context_sufficiency_20261027_v2",
+    "--review",
+    "article/results/analyses/context_sufficiency_review_20261027_v1/manual_content_review.jsonl",
+    "--output",
+    "article/results/analyses/context_sufficiency_partial_20261027_v1"
+  ],
+  "input_sha256": {
+    "/home/nasty/ДИПЛОМ/article/results/runs/context_sufficiency_20261027_v2/manifest.json": "27ceff772c957120280e158a39f618844d32e572382d404d16afba158e4bf1b1",
+    "/home/nasty/ДИПЛОМ/article/results/runs/context_sufficiency_20261027_v2/mapping.jsonl": "ac1a9e0d16c27c793574414cf85a4a031cfcbd6cdb2410ebc3b465563e3dd313",
+    "/home/nasty/ДИПЛОМ/article/results/runs/context_sufficiency_20261027_v2/requests.jsonl": "6a36ea55259a26c9f48ea8d17b7f1679a002bfb3983b8b8ed3a4c2c09f155c9b",
+    "/home/nasty/ДИПЛОМ/article/results/runs/context_sufficiency_openrouter_20261027_v2/run_config.json": "b0bbd7cb64b196a266961f6e1d8016ee76c11b64298fcf3f92634d53305874e8",
+    "/home/nasty/ДИПЛОМ/article/results/runs/context_sufficiency_openrouter_20261027_v2/responses.jsonl": "51f47c374030173d9db1c8d8820e71b999bee79447f99f5775a642a4325fc467",
+    "/home/nasty/ДИПЛОМ/article/results/runs/context_sufficiency_openrouter_20261027_v2/judgments.jsonl": "1d10296628027555e03302b5ec9da366634105c2d976eaf60b323dbbe2948f0f",
+    "/home/nasty/ДИПЛОМ/article/results/analyses/context_sufficiency_review_20261027_v1/manual_content_review.jsonl": "80cec62321aedecd6152396b19a5ec809fd24ebab90c4497868cea6b51964cad"
+  },
+  "source_sha256": {
+    "/home/nasty/ДИПЛОМ/article/scripts/summarize_partial_context_sufficiency.py": "94ba1c20e294a84a5411e6d82c42563155666c6fba1a3f02e834d7a0ce9f7ce2",
+    "/home/nasty/ДИПЛОМ/article/scripts/evaluate_context_sufficiency.py": "5733c21f57128f12c0b3dcf2274587bc298489dd9ecd1fe6faffc697d5252a9c",
+    "/home/nasty/ДИПЛОМ/article/src/article_research/packing_evaluation.py": "c14ddd8ef19d4f95fd473276146dcc51d5ee72487b0cf0767c4f93cfb04cb05f"
+  },
+  "artifact_sha256": {
+    "zero_coverage_but_sufficient.jsonl": "ab533ca69e10a802268b7f7c9aae54670c5b37dd6c92692b4d3bcac38b7b4e7e",
+    "manual_content_review.csv": "7f77b87141fa1640997c91872a46da6ae4161c6ac680a75dd0f300575683a17c",
+    "judgments.csv": "f6a5cd8cffdbc915305d234b178ee5afebae55ac08867723c6f2cfb9bbbb446e",
+    "comparison.csv": "4eff4adf13784197b460d8237264ea99aa9f15b1a0701b0db7685a36676411b2",
+    "missing_judgments.jsonl": "de2108ee18a606e681f334269b5c5f99420077d3b4253d5dcbc4d98cf8892635",
+    "paired_questions.csv": "22a8eebf5c910fd96a9e00871e743f91986d570d7455c3407d6aaf0599131df5",
+    "per_question_results.jsonl": "e40c903ff5d34c9477337ff1c2755f0f3cb5f82c8cd2d32d8c4b8e785fb9a8f0",
+    "manual_content_review.jsonl": "80cec62321aedecd6152396b19a5ec809fd24ebab90c4497868cea6b51964cad",
+    "paired_comparison.csv": "81d32d40ef1342eb36aba4ac3d4b28d683cb51dc47cc143db7e1657c0fd5ca1a",
+    "coverage_sufficiency_counts.csv": "ec7c4e5de56dbd1da8989e601136578104be6ab6871eeeb580715070a8ebd0a6",
+    "summary.json": "8d0efc2ca6e06df694b40f7993d00719c1b25a05a937cae508275fef0d40d596",
+    "evidence_found_but_not_sufficient.jsonl": "2a5156d61456f96fd94e089c3f70b4e3f9e2b6ccb4fa726e9a03b10bcc8cac10"
+  }
+}

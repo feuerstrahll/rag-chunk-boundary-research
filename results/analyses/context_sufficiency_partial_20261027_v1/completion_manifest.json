@@ -1,0 +1,31 @@
+{
+  "status": "completed_partial_at_user_request",
+  "finished_at_utc": "2026-10-27T17:30:50.727561+00:00",
+  "scope": "preserved_incomplete_experiment; no further API calls",
+  "planned_contexts": 386,
+  "observed_contexts": 58,
+  "missing_contexts": 328,
+  "paired_questions": 4,
+  "AI_content_reviews": 15,
+  "human_reviews": 0,
+  "method_effect_established": false,
+  "artifact_sha256": {
+    "verify_results.py": "d811310d9854b5fd57ee04fe9a7b2ab6ff19af1e53c5573ffcd46e13730d5c86",
+    "zero_coverage_but_sufficient.jsonl": "ab533ca69e10a802268b7f7c9aae54670c5b37dd6c92692b4d3bcac38b7b4e7e",
+    "manifest.json": "905a2f28ef840cca956134c25c43c6f18567b4f3df62109d9493c0bd4ae0688b",
+    "manual_content_review.csv": "7f77b87141fa1640997c91872a46da6ae4161c6ac680a75dd0f300575683a17c",
+    "judgments.csv": "f6a5cd8cffdbc915305d234b178ee5afebae55ac08867723c6f2cfb9bbbb446e",
+    "comparison.csv": "4eff4adf13784197b460d8237264ea99aa9f15b1a0701b0db7685a36676411b2",
+    "missing_judgments.jsonl": "de2108ee18a606e681f334269b5c5f99420077d3b4253d5dcbc4d98cf8892635",
+    "validation.json": "b76afc37e28dc4a2300e620adc624b9fa2fdca6819e1d70f16dc02adcda9a0f3",
+    "security_check.json": "c059d46788f9931d95bbbfbc6001dcf0fa773879a68e179260d6f87e262edee9",
+    "report.md": "a07ede336f0cda9fd902038fb023166db7cd9a9cbe289c60e8644aa184ddb336",
+    "paired_questions.csv": "22a8eebf5c910fd96a9e00871e743f91986d570d7455c3407d6aaf0599131df5",
+    "per_question_results.jsonl": "e40c903ff5d34c9477337ff1c2755f0f3cb5f82c8cd2d32d8c4b8e785fb9a8f0",
+    "manual_content_review.jsonl": "80cec62321aedecd6152396b19a5ec809fd24ebab90c4497868cea6b51964cad",
+    "paired_comparison.csv": "81d32d40ef1342eb36aba4ac3d4b28d683cb51dc47cc143db7e1657c0fd5ca1a",
+    "coverage_sufficiency_counts.csv": "ec7c4e5de56dbd1da8989e601136578104be6ab6871eeeb580715070a8ebd0a6",
+    "summary.json": "8d0efc2ca6e06df694b40f7993d00719c1b25a05a937cae508275fef0d40d596",
+    "evidence_found_but_not_sufficient.jsonl": "2a5156d61456f96fd94e089c3f70b4e3f9e2b6ccb4fa726e9a03b10bcc8cac10"
+  }
+}

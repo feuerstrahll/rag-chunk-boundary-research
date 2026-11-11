@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "independent_new_v2_rankings_replayed": 708,
+  "coverage_values_recomputed": 1416,
+  "all_new_v2_b1024_context_selections_match": true,
+  "all_new_v2_coverage_values_equal_v1": true,
+  "input_sha256": {
+    "/home/nasty/\u0414\u0418\u041f\u041b\u041e\u041c/article/results/runs/context_full_20261027_v2/headings/chunks.parquet": "8f90b734586ad4596d25e85b718d59f684ec2463059b9c1081b7a7f9ae015186",
+    "/home/nasty/\u0414\u0418\u041f\u041b\u041e\u041c/article/results/runs/context_full_20261027_v2/headings/rankings.parquet": "989a61fc782fcba18bfaa548cfb27a86d1dd4bf4165e8b7174cdec0e1640bf91",
+    "/home/nasty/\u0414\u0418\u041f\u041b\u041e\u041c/article/results/runs/context_full_20261027_v2/headings_intro/chunks.parquet": "8f90b734586ad4596d25e85b718d59f684ec2463059b9c1081b7a7f9ae015186",
+    "/home/nasty/\u0414\u0418\u041f\u041b\u041e\u041c/article/results/runs/context_full_20261027_v2/headings_intro/rankings.parquet": "989a61fc782fcba18bfaa548cfb27a86d1dd4bf4165e8b7174cdec0e1640bf91"
+  },
+  "scope": "Saved chunks/rankings coordinate replay; no tokenization, encoder or retrieval rerun"
+}

@@ -1,0 +1,29 @@
+{
+  "status": "passed_API_diagnostics_only",
+  "preserved_prepared_inputs": 26,
+  "source_snapshots_verified": 3,
+  "valid_judgments": 0,
+  "reviewed_judgments": 0,
+  "factual_limit_req_minute": 0,
+  "credentials_found_in_artifacts": false,
+  "tests": "16 passed",
+  "ruff": "passed",
+  "unverified": [
+    "Sufficiency Rate",
+    "paired 95% CI",
+    "12 judge reviews"
+  ],
+  "artifact_sha256": {
+    "comparison.csv": "e9d807c89ea61828769e12620708f42d87126628b205797f76784567efcfaa25",
+    "api_checks.csv": "1734f5ae3ac3ca1c66a3998875d3d7f99cfb40b8aa223f2ee96c359f77f24ee6",
+    "report.md": "b8f38abc5f53530e8424ade5d89c4214f58cbda0814525f58ac1242caa671015",
+    "api_checks.jsonl": "b686e4153ec13fa987aa2b8637a5e73ed71396591eb7eba5cd18ba31cc29d0d4",
+    "source_versions.json": "42cdc7d1771673d3b5ba9827e42b51a69af664e5348997a1b3430688ec44dbd5",
+    "paired_comparison.csv": "22f027846bac976e1ae7e775ece0c0e47b8d2175644e2f0ea259b9161e35dbab",
+    "summary.json": "fdc19a4709325f22369a12fc4074210a9bd8174d1ac1514b112ad7299b30d077",
+    "source_snapshots/context_sufficiency_mistral_small_20261027_v1.py": "aef4e532d2b57cee0cf6d7abd831e305ac74cec96659f728a39360dd98290bc7",
+    "source_snapshots/context_sufficiency_mistral_20261027_v1.py": "95079d20d251b0190fd0dc60d2e101879d4054734f214a3c1d4e1a6f4d39fc1c",
+    "source_snapshots/context_sufficiency_mistral_20261027_v2.py": "c346709dd8be95fc80b87374e7a8f98f63da80868b48c37f53f43bc04c119e0b"
+  },
+  "current_adapter_sha256": "91e11cef101e2a7c3e97cea441cc233155612d19bd20aff21869850984487b79"
+}

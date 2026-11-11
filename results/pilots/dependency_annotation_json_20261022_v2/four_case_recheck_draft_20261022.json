@@ -1,0 +1,188 @@
+{
+  "status": "draft_recheck_or_pending_human_review",
+  "max_tokens": 510,
+  "source_workbook": "C:\\Users\\nasty\\Downloads\\annotation_workbook.json",
+  "cases": [
+    {
+      "record_id": "pilot_031",
+      "decision": "positive",
+      "review_status": "draft",
+      "a_count": 1,
+      "min_span_interval": [
+        9,
+        2066
+      ],
+      "min_span_contiguous_tokens": 743,
+      "whole_block_interval": [
+        0,
+        2066
+      ],
+      "whole_block_tokens": 744,
+      "intermediate_text_included": true,
+      "same_section_current_policy": true,
+      "block_distance": 19,
+      "whole_block_budget_ok": false,
+      "sentence_split_observation": "Splitting intermediate blocks without omitting or duplicating text cannot reduce the token count of the same contiguous canonical interval; actual sentence-boundary availability is a separate check.",
+      "parser_issue": "",
+      "anchors": [
+        {
+          "block_id": "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45:markdown:1",
+          "span": [
+            9,
+            28
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "pilot_032",
+      "decision": "positive",
+      "review_status": "draft",
+      "a_count": 1,
+      "min_span_interval": [
+        9,
+        2215
+      ],
+      "min_span_contiguous_tokens": 798,
+      "whole_block_interval": [
+        0,
+        2215
+      ],
+      "whole_block_tokens": 799,
+      "intermediate_text_included": true,
+      "same_section_current_policy": true,
+      "block_distance": 20,
+      "whole_block_budget_ok": false,
+      "sentence_split_observation": "Splitting intermediate blocks without omitting or duplicating text cannot reduce the token count of the same contiguous canonical interval; actual sentence-boundary availability is a separate check.",
+      "parser_issue": "",
+      "anchors": [
+        {
+          "block_id": "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45:markdown:1",
+          "span": [
+            9,
+            28
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "pilot_033",
+      "decision": "positive",
+      "review_status": "draft",
+      "a_count": 1,
+      "min_span_interval": [
+        9,
+        2521
+      ],
+      "min_span_contiguous_tokens": 910,
+      "whole_block_interval": [
+        0,
+        2521
+      ],
+      "whole_block_tokens": 911,
+      "intermediate_text_included": true,
+      "same_section_current_policy": true,
+      "block_distance": 22,
+      "whole_block_budget_ok": false,
+      "sentence_split_observation": "Splitting intermediate blocks without omitting or duplicating text cannot reduce the token count of the same contiguous canonical interval; actual sentence-boundary availability is a separate check.",
+      "parser_issue": "",
+      "anchors": [
+        {
+          "block_id": "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45:markdown:1",
+          "span": [
+            9,
+            28
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "pilot_047",
+      "decision": "positive",
+      "review_status": "draft",
+      "a_count": 7,
+      "min_span_interval": [
+        6344,
+        7821
+      ],
+      "min_span_contiguous_tokens": 456,
+      "whole_block_interval": [
+        6344,
+        7977
+      ],
+      "whole_block_tokens": 509,
+      "intermediate_text_included": true,
+      "same_section_current_policy": true,
+      "block_distance": 8,
+      "whole_block_budget_ok": true,
+      "sentence_split_observation": "Splitting intermediate blocks without omitting or duplicating text cannot reduce the token count of the same contiguous canonical interval; actual sentence-boundary availability is a separate check.",
+      "parser_issue": "",
+      "anchors": [
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:12",
+          "span": [
+            6431,
+            6475
+          ]
+        },
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:13",
+          "span": [
+            6635,
+            6710
+          ]
+        },
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:14",
+          "span": [
+            6856,
+            6926
+          ]
+        },
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:15",
+          "span": [
+            7073,
+            7146
+          ]
+        },
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:16",
+          "span": [
+            7274,
+            7349
+          ]
+        },
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:17",
+          "span": [
+            7518,
+            7561
+          ]
+        },
+        {
+          "block_id": "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:18",
+          "span": [
+            7718,
+            7821
+          ]
+        }
+      ],
+      "document_partition_witness": {
+        "exists": false,
+        "reason": "whole-block chunk 6..6 exceeds budget: 1175",
+        "chunks_before_failure": [
+          {
+            "first_block": 1,
+            "last_block": 5,
+            "char_start": 0,
+            "char_end": 576,
+            "tokens": 127
+          }
+        ]
+      }
+    }
+  ],
+  "human_verification": false,
+  "go_no_go": "not_assessed"
+}

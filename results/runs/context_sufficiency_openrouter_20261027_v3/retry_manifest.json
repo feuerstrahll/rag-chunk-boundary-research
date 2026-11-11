@@ -1,0 +1,20 @@
+{
+  "status": "retry_failed_HTTP_402_no_new_judgments",
+  "finished_at_utc": "2026-10-27T17:33:45.374849+00:00",
+  "carried_forward_judgments": 58,
+  "new_judgments": 0,
+  "remaining_contexts": 328,
+  "carried_raw_and_scores_unchanged": true,
+  "temporary_credential_file_removed": true,
+  "credential_found_in_artifacts": false,
+  "artifact_sha256": {
+    "failure.json": "4c7881969b706fcdfa4d944cec6deb19ff3dd3cb36fc8ff718048b0fb629eb02",
+    "executed_source.py": "6b628a3ff7f0c96777e6c55a3262c7e6485d19427ab1d04c0f41c6e1b2d16e24",
+    "transport_events.jsonl": "32cd522e40161fb3d24893b76760fcbda5e1b21d1fb98239998e98175e3b529d",
+    "access_check.json": "027e50bde3bd8e463284f36102de546b083f793992bcb95d34ef2338d373a5f2",
+    "run_config.json": "77df1e1f4ec520f889583c881c0c0dd8cd9edfa233ebf6299c73a0afc8f1589d",
+    "responses.jsonl": "51f47c374030173d9db1c8d8820e71b999bee79447f99f5775a642a4325fc467",
+    "judgments.jsonl": "1d10296628027555e03302b5ec9da366634105c2d976eaf60b323dbbe2948f0f",
+    "retry_report.md": "bcbec21d2c18d6e0a63157251cd539431167cfb825177ae06ab4e09281ae282c"
+  }
+}

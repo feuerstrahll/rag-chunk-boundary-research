@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "finished_at_utc": "2026-10-26T23:44:02.628741+00:00",
+  "variant": "headings",
+  "config_sha256": "903a1e290ed8515e1ce8320fe1b646f40aa57e996433a7ed393c3ad3c132c676",
+  "question_count": 118,
+  "artifact_sha256": {
+    "chunks.parquet": "8f90b734586ad4596d25e85b718d59f684ec2463059b9c1081b7a7f9ae015186",
+    "contexts.jsonl": "acf93bec8315c9b76ee980a38277518d66b70e7b7c611fb5bf36a0f47f0b4d03",
+    "heading_diagnostics.jsonl": "425503e3cf8d7eb58194205429fc9cc6610ec4908df0e1ac27e892cb582ec11b",
+    "index_statistics.json": "0aa47a646c261f3346c240cc4ee2a603e4f92f243a6adfd9f2e4a926e943c124",
+    "intro_candidates.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "per_question_metrics.parquet": "1ed536be950064289cb3da7b96cadf7c20db68afe334fba3e8e4c85a4e9be6d1",
+    "preferred_links.jsonl": "20790a2a53876f3b91ea6d39ccfdb4958111c9d38e3ea1237eb11ae3d2a1a8b1",
+    "rankings.parquet": "989a61fc782fcba18bfaa548cfb27a86d1dd4bf4165e8b7174cdec0e1640bf91",
+    "structural_integrity.json": "ac79653821ffe036896fce3b9cf052f250a1b0fce59d0fe1bb5de8478e83c6ee"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "techdoc-chunking-pipeline/data/raw/watsonx_docsqa/f7da4b6d8a8c4609c49fda06af3bea29b6ef9be4/corpus/train-00000-of-00001.parquet": "fb56d7c847f576d72f32669b01feb47e38788b7e91deeecdcdbcc2b9995fdd6b",
+  "techdoc-chunking-pipeline/data/raw/watsonx_docsqa/f7da4b6d8a8c4609c49fda06af3bea29b6ef9be4/question_answers/train-00000-of-00001.parquet": "73c81739e29b2e5fac82accb43d7b3a7f319e047ae56f421dd8d3804f0742bb1",
+  "techdoc-chunking-pipeline/data/raw/watsonx_docsqa/f7da4b6d8a8c4609c49fda06af3bea29b6ef9be4/question_answers/test-00000-of-00001.parquet": "bea3bd567eb95b29b3d3e4b185ed6bb0bad114b897ac42c9bac3f4fec054a18a",
+  "techdoc-chunking-pipeline/article/results/stage_a/step5a_ai_approved_freeze_v2/retrieval_gold_ai.jsonl": "824cb306358eabb40275030637cdc039a46ae24e556ad4e166fb7cb86f2bccaf"
+}

@@ -1,0 +1,7 @@
+{
+  "source": "/home/nasty/ДИПЛОМ/article/results/runs/hierarchy_full_20261026_v1",
+  "variant": "hierarchy",
+  "status": "validated_reuse",
+  "manifest_sha256": "dc7bbbaea59b24ec7faba07efcfe7219d54a3db47b137a55beb63a08c252632a",
+  "costs_are_historical_v1_measurements": true
+}

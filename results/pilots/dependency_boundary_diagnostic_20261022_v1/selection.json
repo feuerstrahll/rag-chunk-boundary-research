@@ -1,0 +1,120 @@
+{
+  "status": "selection_frozen_before_content_review",
+  "purpose": "diagnostic only; no prevalence estimate",
+  "seed": 20261022,
+  "rule": "uniform seeded sample of 8 actual between-block ends and 4 ends inside blocks, from pilot documents; no labels used",
+  "pool_sizes": {
+    "between_blocks": 79,
+    "inside_oversized_block": 9
+  },
+  "inputs_sha256": {
+    "documents": "07eb7343aba569eedf13e9638bd843790f81567068f0dd7ff2446d8e43784025",
+    "chunks": "25592c94ac555ace98ded57e0ea1e4453722d16f2454ed1da559dd428ee3c346"
+  },
+  "selected": [
+    {
+      "category": "between_blocks",
+      "doc_id": "292D19849E8FBE48869F5E3A50439964563A90D1",
+      "offset": 14202,
+      "block_ids": [
+        "292D19849E8FBE48869F5E3A50439964563A90D1:markdown:68",
+        "292D19849E8FBE48869F5E3A50439964563A90D1:markdown:69"
+      ]
+    },
+    {
+      "category": "between_blocks",
+      "doc_id": "D377DA7CF67645F321593FA8B1536BE2F0753333",
+      "offset": 4157,
+      "block_ids": [
+        "D377DA7CF67645F321593FA8B1536BE2F0753333:markdown:36",
+        "D377DA7CF67645F321593FA8B1536BE2F0753333:markdown:37"
+      ]
+    },
+    {
+      "category": "between_blocks",
+      "doc_id": "292D19849E8FBE48869F5E3A50439964563A90D1",
+      "offset": 4755,
+      "block_ids": [
+        "292D19849E8FBE48869F5E3A50439964563A90D1:markdown:37",
+        "292D19849E8FBE48869F5E3A50439964563A90D1:markdown:38"
+      ]
+    },
+    {
+      "category": "between_blocks",
+      "doc_id": "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45",
+      "offset": 15238,
+      "block_ids": [
+        "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45:markdown:96",
+        "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45:markdown:97"
+      ]
+    },
+    {
+      "category": "between_blocks",
+      "doc_id": "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45",
+      "offset": 5978,
+      "block_ids": [
+        "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45:markdown:44",
+        "0999F59BB8E2E2AB7722D57CDBC051A0984ABE45:markdown:45"
+      ]
+    },
+    {
+      "category": "between_blocks",
+      "doc_id": "27DB2218237B89F557D3702F4270288E4460E9CB",
+      "offset": 7716,
+      "block_ids": [
+        "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:17",
+        "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:18"
+      ]
+    },
+    {
+      "category": "between_blocks",
+      "doc_id": "27DB2218237B89F557D3702F4270288E4460E9CB",
+      "offset": 6109,
+      "block_ids": [
+        "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:7",
+        "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:8"
+      ]
+    },
+    {
+      "category": "between_blocks",
+      "doc_id": "D377DA7CF67645F321593FA8B1536BE2F0753333",
+      "offset": 3476,
+      "block_ids": [
+        "D377DA7CF67645F321593FA8B1536BE2F0753333:markdown:32",
+        "D377DA7CF67645F321593FA8B1536BE2F0753333:markdown:33"
+      ]
+    },
+    {
+      "category": "inside_oversized_block",
+      "doc_id": "27DB2218237B89F557D3702F4270288E4460E9CB",
+      "offset": 2188,
+      "block_ids": [
+        "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:6"
+      ]
+    },
+    {
+      "category": "inside_oversized_block",
+      "doc_id": "292D19849E8FBE48869F5E3A50439964563A90D1",
+      "offset": 4663,
+      "block_ids": [
+        "292D19849E8FBE48869F5E3A50439964563A90D1:markdown:37"
+      ]
+    },
+    {
+      "category": "inside_oversized_block",
+      "doc_id": "577964B0C132F5EA793054C3FF67417DDA6511D3",
+      "offset": 15781,
+      "block_ids": [
+        "577964B0C132F5EA793054C3FF67417DDA6511D3:markdown:23"
+      ]
+    },
+    {
+      "category": "inside_oversized_block",
+      "doc_id": "27DB2218237B89F557D3702F4270288E4460E9CB",
+      "offset": 4884,
+      "block_ids": [
+        "27DB2218237B89F557D3702F4270288E4460E9CB:markdown:6"
+      ]
+    }
+  ]
+}

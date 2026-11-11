@@ -1,0 +1,31 @@
+version: 1
+primary_endpoint:
+  representation: md_document
+  method: hybrid
+  level: evidence
+  metric: EvidenceCoverage@5
+  role: confirmatory
+secondary_endpoints:
+  - {method: hybrid, level: evidence, metric: EvidenceHit@5}
+  - {method: hybrid, level: document, metric: Recall@5}
+manual_evaluation:
+  role: construct_validation
+  representation: md_document
+  method: hybrid
+  top_k: 3
+  reviewers: 1
+html_evaluation:
+  role: diagnostic
+  parser_version: html_parser_v1
+  aligner_version: evidence_aligner_v1
+budget_matching:
+  representation: md_document
+  reference_strategy: structure
+  min_tokens: 128
+  max_tokens: 510
+  max_overlap_tokens: 64
+  max_overlap_fraction: 0.25
+  relative_tolerance: 0.02
+  shortlist_size: 12
+  reference_output: results/watsonx_retrieval
+  smoke_reference_output: results/smoke_retrieval

@@ -1,0 +1,207 @@
+{
+  "schema_version": "1.0",
+  "created_at_utc": "2026-10-15T18:16:45Z",
+  "snapshot_id": "7f2f09d07dbd925fcdcdc6e6c5b564d355fc287aa1e5eccb7da9633648a9cd89",
+  "classification": "current_upstream_snapshot_not_historical_source",
+  "upstream_path": "C:\\Users\\nasty\\\u0414\u0418\u041f\u041b\u041e\u041c\\techdoc-chunking-pipeline",
+  "git": {
+    "head": "7d986ef68401b475f3cdc33694ac0c8cc7bac630",
+    "dirty": true,
+    "status": [
+      " M pyproject.toml",
+      " M src/evaluation/__init__.py",
+      " M src/retrieval/__init__.py",
+      " M src/retrieval/ranking.py",
+      " M uv.lock",
+      "?? configs/computational_efficiency.yaml",
+      "?? configs/metadata_ablation_v2.yaml",
+      "?? results/report/computational_efficiency.md",
+      "?? scripts/run_computational_efficiency.py",
+      "?? scripts/run_metadata_ablation_v2.py",
+      "?? src/evaluation/efficiency.py",
+      "?? src/metadata_ablation/__init__.py",
+      "?? src/metadata_ablation/chunker.py",
+      "?? src/metadata_ablation/representation.py",
+      "?? tests/test_computational_efficiency.py",
+      "?? tests/test_metadata_ablation_v2.py"
+    ],
+    "selected_tracked_diff_sha256": "5d03928b790f7429c4dcfd765f5ab3dcfa64310d31b47da75ae8d8dcbae63ad4"
+  },
+  "files": [
+    {
+      "path": "configs/analysis_contract.yaml",
+      "size_bytes": 824,
+      "sha256": "e7a35ebabb65b060a54597f36105495f11567a86c066fbac73ddd28b32b822ea"
+    },
+    {
+      "path": "configs/watsonx_retrieval.yaml",
+      "size_bytes": 753,
+      "sha256": "8bfd8fa60d1afb8c4f6517b18eeecc0019dca575786f00f35477cdb2baa4d1b3"
+    },
+    {
+      "path": "pyproject.toml",
+      "size_bytes": 699,
+      "sha256": "04a46968a455c82433d0d5dfde651d225aad258ebe8ac454a01a6d71d3b1c510"
+    },
+    {
+      "path": "src/chunking/__init__.py",
+      "size_bytes": 759,
+      "sha256": "bd333e64e459fcd51126f7edce480c3cbd88cca53f3e610c390d8a76a1df92b4"
+    },
+    {
+      "path": "src/chunking/fixed.py",
+      "size_bytes": 12920,
+      "sha256": "aeefb415601bc47e806dd62d6b580841872c94baf2c7596250344679c1ed2896"
+    },
+    {
+      "path": "src/chunking/statistics.py",
+      "size_bytes": 2088,
+      "sha256": "3f845a88e2e4f001239462cb05fed7c24fbfedde581d9e26199f8b29ce14eae7"
+    },
+    {
+      "path": "src/chunking/structure.py",
+      "size_bytes": 7926,
+      "sha256": "030a747812ae5319988d65af0c0c0c91ed2081ec48fdaa738f7995c88cb4e1e4"
+    },
+    {
+      "path": "src/enrichment/__init__.py",
+      "size_bytes": 63,
+      "sha256": "b90159b4f4314c0905ece6c700a7d9a763d165550a6c78e978677903dfd6cbc0"
+    },
+    {
+      "path": "src/enrichment/chunks.py",
+      "size_bytes": 1136,
+      "sha256": "4bb67f9e183e233acde86a7efdd918db7ff4d175a63aeccc96ad3135988b433b"
+    },
+    {
+      "path": "src/evaluation/__init__.py",
+      "size_bytes": 969,
+      "sha256": "f16c85ff7393b640e6b261cd964ae3519f830c6c9dc92d29d092d130ec6814d8"
+    },
+    {
+      "path": "src/evaluation/alignment_v2.py",
+      "size_bytes": 649,
+      "sha256": "59b23c2abd9c36c43a22ca6e0122266faaf22527194b8e652b3e12893cf2f3a7"
+    },
+    {
+      "path": "src/evaluation/budget_matching.py",
+      "size_bytes": 6890,
+      "sha256": "7c437cd00ca02522308d487f70b36791b75e5ec9f6c5c836bc79a20bc1df4502"
+    },
+    {
+      "path": "src/evaluation/efficiency.py",
+      "size_bytes": 3786,
+      "sha256": "a6533498a5d137e3ceda53c1ebc3b00c483b6d02381134e3bf3176492fa5b0aa"
+    },
+    {
+      "path": "src/evaluation/retrieval.py",
+      "size_bytes": 10755,
+      "sha256": "c5e8fff1854b072ebda2382e939aa4016131f7ce79106f2126f43b4acd9efbad"
+    },
+    {
+      "path": "src/models/__init__.py",
+      "size_bytes": 250,
+      "sha256": "019d71e48b59e7184c9bef12557c0d67fcbe1b2f2cf84d18dfbbe01638a21f5e"
+    },
+    {
+      "path": "src/models/contracts.py",
+      "size_bytes": 6729,
+      "sha256": "31c982898dc8d2b61d8415cd4da12e5ecd37d8d62eab2494fea10b36198ebeba"
+    },
+    {
+      "path": "src/normalization/__init__.py",
+      "size_bytes": 267,
+      "sha256": "460db5247851302101e3741e8b0db1603c6c39c5581f6154f3d7cb40423443e1"
+    },
+    {
+      "path": "src/normalization/canonical.py",
+      "size_bytes": 1505,
+      "sha256": "1c265bbd2c9ee61758e7798f6fa77a601e2febcf0b9a0d1012c572a0312c9883"
+    },
+    {
+      "path": "src/parsers/__init__.py",
+      "size_bytes": 630,
+      "sha256": "d20f4dfcc63fe81a0ad1cf4a18bcf36136a86e5717388433d308a5d831a29012"
+    },
+    {
+      "path": "src/parsers/base.py",
+      "size_bytes": 451,
+      "sha256": "bc7eac38da2f23f8114b639444b3ec78651b716478f6070aedcb4da8ccaf3a0f"
+    },
+    {
+      "path": "src/parsers/html_v2.py",
+      "size_bytes": 4334,
+      "sha256": "7925cd46cc7c5542f177ab477594f01e65180e2dc5251c6fe0e66a7388516902"
+    },
+    {
+      "path": "src/parsers/markdown.py",
+      "size_bytes": 4190,
+      "sha256": "d7e86e75166947a6db46b3974e964de913ca1cc9e36c6929dde7c95fdb9138d2"
+    },
+    {
+      "path": "src/parsers/plain_html.py",
+      "size_bytes": 2690,
+      "sha256": "34f73b75d6eb707da37dddb28be128a4fb87ede8330ad3b63051aecf22ab20c1"
+    },
+    {
+      "path": "src/parsers/plain_pdf.py",
+      "size_bytes": 1265,
+      "sha256": "53f0d7025489b6fcacc218514157ad594cb53a763f638581ea0d4ab5e41a560a"
+    },
+    {
+      "path": "src/parsers/registry.py",
+      "size_bytes": 1053,
+      "sha256": "98782eb7a58711590a4a12e34c63c40e04dc53174c14c218d3d167c78b4f7990"
+    },
+    {
+      "path": "src/parsers/unstructured_parser.py",
+      "size_bytes": 2080,
+      "sha256": "ee2b2a1bb364e11d9b58409fd5ba6cc3532f6d116612d598694ea4eecd29b197"
+    },
+    {
+      "path": "src/parsers/yaml_json.py",
+      "size_bytes": 2274,
+      "sha256": "d4ccc086799591840617f27a450573ecd61977910b6efebe00bbc4e36e05415c"
+    },
+    {
+      "path": "src/ragstudy/__init__.py",
+      "size_bytes": 144,
+      "sha256": "ac2c61558ada972f4e9928340edda4f24e68168a7f012038d5ceafb7ff14f599"
+    },
+    {
+      "path": "src/ragstudy/data/__init__.py",
+      "size_bytes": 628,
+      "sha256": "a21c4b7e23a18e84e5c93129608d37e9165aa2682eb794d2793a91def47b9284"
+    },
+    {
+      "path": "src/ragstudy/data/interfaces.py",
+      "size_bytes": 1424,
+      "sha256": "abe699f5c7b29ad56d312a4a8a5c3171cfb624b6be3e65378026f5bc130df0ea"
+    },
+    {
+      "path": "src/ragstudy/data/watsonx_docsqa.py",
+      "size_bytes": 2704,
+      "sha256": "81cf2dc266bd5f53a17184abf5b8b2d46a083d0b7c772253190ab5507a857ece"
+    },
+    {
+      "path": "src/ragstudy/data/watsonx_qa.py",
+      "size_bytes": 2784,
+      "sha256": "48d1fad1a2b859abc5e34a9cc7bf27888cf0c51159b6aa81ca065fee312274c5"
+    },
+    {
+      "path": "src/retrieval/__init__.py",
+      "size_bytes": 334,
+      "sha256": "f6da29ad1345bb687ade788c16d218ad26413993ce54c893b6641144bbbbea4a"
+    },
+    {
+      "path": "src/retrieval/ranking.py",
+      "size_bytes": 6633,
+      "sha256": "ba3d8e4f31d0cc47f852582ecd78023a735d5ae2f032547f0b55bc3fe22ec9ec"
+    },
+    {
+      "path": "uv.lock",
+      "size_bytes": 912568,
+      "sha256": "38a44b7a86dc9bb697f427bcfd08dac623de609d9cd917c8f0e1fe36df34a1a5"
+    }
+  ]
+}

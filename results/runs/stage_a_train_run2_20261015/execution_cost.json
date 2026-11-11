@@ -1,0 +1,14 @@
+{
+  "stages_seconds": {
+    "load_inputs_seconds": 0.30423399999926914,
+    "parse_seconds": 1.1112294000013208,
+    "model_load_seconds": 0.550034299998515,
+    "chunk_seconds": 23.367084499997873,
+    "index_seconds": 510.4771032999997,
+    "query_seconds": 4.791928999999072
+  },
+  "total_seconds": 542.4222100000006,
+  "peak_rss_bytes": 1022865408,
+  "rss_sampling_interval_seconds": 0.01,
+  "device": "cpu"
+}
